@@ -8,8 +8,8 @@
 - [4 Who can benefit from this?](https://github.com/crazylxr/spacemacas-ch-doc/blob/master/who-can-benefit-from-this.md)
 - [5 Update and Rollback](https://github.com/crazylxr/spacemacas-ch-doc/blob/master/update-and-rollback.md)
 - [6 Configuration layers](https://github.com/crazylxr/spacemacas-ch-doc/blob/master/configuration-layers.md)
-- 7 Dotfile Configuration
-- 8 Concepts
+- [7 Dotfile Configuration](https://github.com/crazylxr/spacemacas-ch-doc/blob/master/dotfile-configuration.md)
+- [8 Concepts](https://github.com/crazylxr/spacemacas-ch-doc/blob/master/concepts.md)
 - 9 Differences between Vim, Evil and Spacemacs
 - 10 Evil plugins
 - 11 Binding keys
