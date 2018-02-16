@@ -8,7 +8,7 @@
 * [4 Who can benefit from this?](who-can-benefit-from-this.md)
 * [5 Update and Rollback](update-and-rollback.md)
 * [6 Configuration layers](configuration-layers.md)
-* 7 Dotfile Configuration
+* [7 Dotfile Configuration](dotfile-configuration.md)
 * 8 Concepts
 * 9 Differences between Vim, Evil and Spacemacs
 * 10 Evil plugins
