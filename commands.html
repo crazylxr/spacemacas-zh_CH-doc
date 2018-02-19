@@ -1,0 +1,4252 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>14 Commands · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="layouts-and-workspaces.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="quick-start.html">
+            
+                <a href="quick-start.html">
+            
+                    
+                    quick start
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="core-pillars.html">
+            
+                <a href="core-pillars.html">
+            
+                    
+                    1 Core Pillars
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="highlighted-feature.html">
+            
+                <a href="highlighted-feature.html">
+            
+                    
+                    2 Highlighted feature
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="screenshots.html">
+            
+                <a href="screenshots.html">
+            
+                    
+                    3 Screenshots
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="who-can-benefit-from-this.html">
+            
+                <a href="who-can-benefit-from-this.html">
+            
+                    
+                    4 Who can benefit from this?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="update-and-rollback.html">
+            
+                <a href="update-and-rollback.html">
+            
+                    
+                    5 Update and Rollback
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="configuration-layers.html">
+            
+                <a href="configuration-layers.html">
+            
+                    
+                    6 Configuration layers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="dotfile-configuration.html">
+            
+                <a href="dotfile-configuration.html">
+            
+                    
+                    7 Dotfile Configuration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="concepts.html">
+            
+                <a href="concepts.html">
+            
+                    
+                    8 Concepts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="differences-between-vim-evil-and-spacemacs.html">
+            
+                <a href="differences-between-vim-evil-and-spacemacs.html">
+            
+                    
+                    9 Differences between Vim, Evil and Spacemacs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="evil-plugins.html">
+            
+                <a href="evil-plugins.html">
+            
+                    
+                    10 Evil plugins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="binding-keys.html">
+            
+                <a href="binding-keys.html">
+            
+                    
+                    11 Binding keys
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="gui-elements.html">
+            
+                <a href="gui-elements.html">
+            
+                    
+                    12 GUI Elements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="layouts-and-workspaces.html">
+            
+                <a href="layouts-and-workspaces.html">
+            
+                    
+                    13 Layouts and workspaces
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.16" data-path="commands.html">
+            
+                <a href="commands.html">
+            
+                    
+                    14 Commands
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" >
+            
+                <span>
+            
+                    
+                    15 Achievements && 16 Thank you
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >14 Commands</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="14-commands">14 Commands</h2>
+<h3 id="141-vim-key-bindings">14.1 Vim key bindings</h3>
+<p>spacemacs &#x662F;&#x57FA;&#x4E8E; vim &#x6A21;&#x5F0F;&#x7684;&#x7528;&#x6237;&#x754C;&#x9762;&#x6765;&#x5BFC;&#x822A;&#x548C;&#x7F16;&#x8F91;&#x6587;&#x672C;&#x3002;&#x5982;&#x679C;&#x4F60;&#x4E0D;&#x719F;&#x6089; vim &#x7F16;&#x8F91;&#x6587;&#x672C;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x968F;&#x65F6;&#x6309;&#x4E0B; SPC h T &#x6765;&#x8BD5;&#x8BD5;&#x8FD9;&#x4E2A; <a href="https://github.com/syl20bnr/evil-tutor" target="_blank">evil-tutor</a> &#x6559;&#x7A0B;&#x3002;</p>
+<h4 id="1411-escaping">14.1.1 Escaping</h4>
+<p>spacemacs &#x901A;&#x8FC7;&#x5FEB;&#x901F;&#x6309;&#x4E0B; fd &#x952E;&#xFF0C;&#x4F7F;&#x7528; evil-escape &#x6765;&#x8F7B;&#x677E;&#x5207;&#x6362;&#x63D2;&#x5165;&#x72B6;&#x6001;&#x548C;&#x6B63;&#x5E38;&#x72B6;&#x6001;&#x3002;</p>
+<p>fd &#x7684;&#x9009;&#x62E9;&#x4F7F;&#x5F97;&#x80FD;&#x591F;&#x4F7F;&#x7528;&#x76F8;&#x540C;&#x7684;&#x5E8F;&#x5217;&#x4ECE; emacs &#x4E2D;&#x7684; &#x201C;everything&#x201D;:</p>
+<ul>
+<li>&#x4ECE;&#x4E00;&#x5207; evil &#x72B6;&#x6001;&#x6446;&#x8131;&#x5230;&#x6B63;&#x5E38;&#x7684;&#x72B6;&#x6001;</li>
+<li>&#x4ECE; evil-lisp-state &#x5230;&#x6B63;&#x5E38;&#x72B6;&#x6001;</li>
+<li>&#x4ECE; evil-iedit-state &#x5230;&#x6B63;&#x5E38;&#x72B6;&#x6001;</li>
+<li>&#x653E;&#x5F03; evil &#x7684;&#x547D;&#x4EE4;</li>
+<li>&#x9000;&#x51FA; minibuffer</li>
+<li>&#x653E;&#x5F03; isearch</li>
+<li>&#x9000;&#x51FA; magit buffers</li>
+<li>&#x9000;&#x51FA; help buffers</li>
+<li>&#x9000;&#x51FA; apropos buffers</li>
+<li>&#x9000;&#x51FA; ert buffers</li>
+<li>&#x9000;&#x51FA; undo-tree buffer</li>
+<li>&#x9000;&#x51FA; paradox</li>
+<li>&#x9000;&#x51FA; gist-list menu</li>
+<li>&#x9000;&#x51FA; helm-ag-edit</li>
+<li>&#x9690;&#x85CF; neotree buffer</li>
+</ul>
+<p>&#x5982;&#x679C;&#x60A8;&#x53D1;&#x73B0;&#x81EA;&#x5DF1;&#x5904;&#x4E8E; Spacemacs&#xFF08;SPC&#xFF09;&#x6216; vim&#x952E; &#x7ED1;&#x5B9A;&#x4E0D;&#x8D77;&#x4F5C;&#x7528;&#x7684;&#x7F13;&#x51B2;&#x533A;&#x4E2D;&#xFF0C;&#x5219;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5B83;&#x6062;&#x590D;&#x5230;&#x6B63;&#x5E38;&#x72B6;&#x6001;&#xFF08;&#x4F8B;&#x5982;&#xFF0C;&#x5728; SPC SPC customize &#x6309; fd &#x4EE5;&#x4F7F; SPC b b&#x518D;&#x6B21;&#x8FD0;&#x884C;&#xFF09;&#x3002;</p>
+<p>&#x8FD9;&#x4E2A;&#x5E8F;&#x5217;&#x53EF;&#x4EE5;&#x5728;&#x4F60;&#x7684; &#x301C;/.spacemacs &#x4E2D;&#x5B9A;&#x5236;&#x3002;&#x4F8B;&#x5982;&#x5C06;&#x5176;&#x8BBE;&#x7F6E;&#x4E3A;jj&#xFF1A;</p>
+<pre><code class="lang-lisp">(<span class="hljs-name">defun</span> dotspacemacs/user-config ()
+  (<span class="hljs-name">setq-default</span> evil-escape-key-sequence <span class="hljs-string">&quot;jj&quot;</span>))
+</code></pre>
+<blockquote>
+<p>&#x6CE8;&#x610F;&#xFF1A;&#x5C3D;&#x7BA1; jj &#x6216; jk &#x662F; vim &#x7528;&#x6237;&#x7684;&#x6D41;&#x884C;&#x9009;&#x62E9;&#xFF0C;&#x4F46;&#x8FD9;&#x4E9B;&#x5173;&#x952E;&#x5E8F;&#x5217;&#x5BF9;&#x4E8E; spacemacs &#x5E76;&#x4E0D;&#x662F;&#x6700;&#x4F18;&#x7684;&#x3002;&#x4E8B;&#x5B9E;&#x4E0A;&#xFF0C;&#x5728; visual &#x72B6;&#x6001;&#x4E0B;&#x5F88;&#x5FEB;&#x5C31;&#x4F1A;&#x5F88;&#x5FEB;&#x5730;&#x6309;&#x4E0B;&#xFF0C;&#x4E0D;&#x7ECF;&#x610F;&#x5730;&#x9003;&#x5230; normal &#x72B6;&#x6001;&#x3002;</p>
+</blockquote>
+<h4 id="1412-executing-vim-and-emacs-exm-x-commands">14.1.2 Executing Vim and Emacs ex/M-x commands</h4>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Key Binding</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vim (ex-command)</td>
+<td>&#xFF1A;</td>
+</tr>
+<tr>
+<td>Emacs (M-x)</td>
+<td>SPC SPC</td>
+</tr>
+</tbody>
+</table>
+<p>&#x53EF;&#x4EE5;&#x4F7F;&#x7528; &#x301C;/.spacemacs &#x7684;&#x53D8;&#x91CF; dotspacemacs-emacs-command-key &#x6765;&#x66F4;&#x6539; emacs &#x547D;&#x4EE4;&#x952E; SPC&#xFF08;&#x5728;leader key&#x540E;&#x9762;&#x6267;&#x884C;&#xFF09;&#x3002;</p>
+<h4 id="1413-leader-key">14.1.3 Leader key</h4>
+<p>&#x5728; vim &#x6A21;&#x5F0F;&#x4E4B;&#x4E0A;&#xFF08;&#x6A21;&#x5F0F;&#x88AB;&#x79F0;&#x4E3A; spacemacs &#x4E2D;&#x7684;&#x72B6;&#x6001;&#xFF09;&#xFF0C;&#x6709;&#x4E00;&#x4E2A;&#x7279;&#x6B8A;&#x7684;&#x952E;&#x88AB;&#x79F0;&#x4E3A; leader &#x952E;&#xFF0C;&#x5B83;&#x66FE;&#x7ECF;&#x88AB;&#x6309;&#x4E0B;&#x7ED9;&#x51FA;&#x4E00;&#x4E2A;&#x5168;&#x65B0;&#x7684;&#x952E;&#x76D8;&#x5C42;&#x3002;leader &#x952E;&#x662F;&#x9ED8;&#x8BA4;&#x7684; SPC&#xFF08;&#x7A7A;&#x683C;&#xFF09;&#x3002;&#x53EF;&#x4EE5;&#x7528;&#x53D8;&#x91CF; dotspacemacs-leader-key &#x6765;&#x6539;&#x53D8;&#x8FD9;&#x4E2A;&#x952E;&#x3002;</p>
+<h4 id="1414-additional-text-objects">14.1.4 Additional text objects</h4>
+<p>&#x5728;spacemacs&#x4E2D;&#x5B9A;&#x4E49;&#x4E86;&#x989D;&#x5916;&#x7684;&#x6587;&#x672C;&#x5BF9;&#x8C61;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Object</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>an argument</td>
+</tr>
+<tr>
+<td>g</td>
+<td>the entire buffer</td>
+</tr>
+<tr>
+<td>$</td>
+<td>text between $</td>
+</tr>
+<tr>
+<td>*</td>
+<td>text between *</td>
+</tr>
+<tr>
+<td>8</td>
+<td>text between /<em> and </em>/</td>
+</tr>
+<tr>
+<td>%</td>
+<td>text between %</td>
+</tr>
+<tr>
+<td>\vert</td>
+<td>text between \vert</td>
+</tr>
+</tbody>
+</table>
+<h3 id="142&#x4E3A;&#x7528;&#x6237;&#x4FDD;&#x7559;&#x524D;&#x7F00;&#x547D;&#x4EE4;">14.2&#x4E3A;&#x7528;&#x6237;&#x4FDD;&#x7559;&#x524D;&#x7F00;&#x547D;&#x4EE4;</h3>
+<p>SPC o &#x548C; SPC m o &#x662F;&#x4E3A;&#x7528;&#x6237;&#x4FDD;&#x7559;&#x7684;&#x3002;&#x5728;&#x8FD9;&#x4E9B;&#x80CC;&#x540E;&#x8BBE;&#x7F6E;&#x952E;&#x7ED1;&#x5B9A;&#x4FDD;&#x8BC1;&#x4E0D;&#x4F1A;&#x4E0E; spacemacs &#x9ED8;&#x8BA4;&#x952E;&#x7ED1;&#x5B9A;&#x51B2;&#x7A81;&#x3002;</p>
+<p>&#x4F8B;&#x5982;&#xFF1A;&#x5728;&#x4F60;&#x7684; &#x301C;/.spacemacs &#x6587;&#x4EF6;&#x91CC;&#x653E;&#x7F6E;&#xFF08;spacesmacs/ set-leader-keys&#x201C;oc&#x201D;&apos;org-capture&#xFF09;&#x5230; dotspacemacs/user-config &#x4E2D;&#xFF0C;&#x4EE5;&#x4FBF;&#x80FD;&#x591F;&#x4F7F;&#x7528; SPC o c &#x6765;&#x8FD0;&#x884C;&#x7EC4;&#x7EC7;&#x6A21;&#x5F0F;&#x6355;&#x83B7;&#x3002;</p>
+<h3 id="143-completion">14.3 Completion</h3>
+<p>spacemacs &#x7531;&#x4E24;&#x4E2A;&#x589E;&#x91CF;&#x5B8C;&#x6210;&#x548C;&#x9009;&#x62E9;&#x7F29;&#x5C0F;&#x6846;&#x67B6;&#x4E4B;&#x4E00;&#x9A71;&#x52A8;&#xFF1A;helm&#xFF08;&#x9ED8;&#x8BA4;&#xFF09;&#x6216; ivy&#x3002;&#x8981;&#x4F7F;&#x7528; ivy&#xFF0C;&#x8BF7;&#x5C06; ivy layer &#x6DFB;&#x52A0;&#x5230;&#x542F;&#x7528;&#x7684; layer &#x5217;&#x8868;&#x4E2D;&#x3002;&#x5982;&#x679C; ivy layer &#x6CA1;&#x6709;&#x542F;&#x7528;&#xFF0C;helm &#x5C06;&#x81EA;&#x52A8;&#x542F;&#x7528;&#x3002;&#xFF08;&#x8BF7;&#x6CE8;&#x610F;&#xFF0C;&#x7531;&#x4E8E; Helm &#x662F;&#x4E24;&#x8005;&#x4E2D;&#x8F83;&#x4E3A;&#x6210;&#x719F;&#x7684;&#xFF0C;&#x6240;&#x4EE5;&#x5982;&#x679C;&#x9009;&#x62E9; ivy&#xFF0C;&#x67D0;&#x4E9B;&#x529F;&#x80FD;&#x53EF;&#x80FD;&#x65E0;&#x6CD5;&#x4F7F;&#x7528;&#x3002;&#xFF09;</p>
+<p>&#x8FD9;&#x4E9B;&#x5B8C;&#x6210;&#x7CFB;&#x7EDF;&#x662F; spacemacs &#x7684;&#x4E2D;&#x592E;&#x63A7;&#x5236;&#x5854;&#xFF0C;&#x4ED6;&#x4EEC;&#x88AB;&#x7528;&#x6765;&#x7BA1;&#x7406;&#x7F13;&#x51B2;&#x533A;(buffers)&#xFF0C;&#x9879;&#x76EE;(projects)&#xFF0C;&#x641C;&#x7D22;&#x7ED3;&#x679C;(search results)&#xFF0C;&#x914D;&#x7F6E;&#x5C42;(configuration)&#xFF0C;&#x5207;&#x6362;(toggles)&#x548C;&#x66F4;&#x591A;...</p>
+<p>&#x638C;&#x63E1;&#x4F60;&#x5B8C;&#x6210;&#x7CFB;&#x7EDF;&#x7684;&#x9009;&#x62E9;&#x5C06;&#x4F1A;&#x4F7F;&#x4F60;&#x6210;&#x4E3A;&#x4E00;&#x540D;&#x8D85;&#x7EA7; Spacemacs &#x7528;&#x6237;&#x3002;</p>
+<h4 id="1431-helm">14.3.1 Helm</h4>
+<p>&#x4E0D;&#x8981;&#x72B9;&#x8C6B;&#x6765;&#x9605;&#x8BFB;<a href="https://github.com/emacs-helm/helm/wiki" target="_blank">Helm wiki &#x6587;&#x6863;</a>&#x3002;</p>
+<h4 id="14311-c-z-and-tab-switch">14.3.1.1 C-z and Tab switch</h4>
+<p>&#x7ED1;&#x5B9A;&#x5230; C-z &#x7684;&#x547D;&#x4EE4;&#x6BD4;&#x7ED1;&#x5B9A;&#x5230; Tab &#x7684;&#x547D;&#x4EE4;&#x66F4;&#x6709;&#x7528;&#xFF0C;&#x6240;&#x4EE5;&#x4EA4;&#x6362;&#x5B83;&#x4EEC;&#x662F;&#x6709;&#x610F;&#x4E49;&#x7684;&#x3002;<a href="http://tuhdo.github.io/helm-intro.html" target="_blank">&#x8FD9;&#x91CC;</a>&#x4E5F;&#x63A8;&#x8350;&#x3002;</p>
+<h4 id="14312-helm-focus">14.3.1.2 Helm focus</h4>
+<p>&#x5982;&#x679C;&#x60A8;&#x53D1;&#x73B0;&#x81EA;&#x5DF1;&#x65E0;&#x6CD5;&#x5C06;&#x7126;&#x70B9;&#x8FD4;&#x56DE;&#x5230; Helm&#xFF08;&#x4F8B;&#x5982;&#x7C97;&#x5FC3;&#x7684;&#x70B9;&#x51FB;&#x9F20;&#x6807;&#x4E4B;&#x540E;&#xFF09;&#xFF0C;&#x8BF7;&#x4F7F;&#x7528; SPC w b &#x5C06;&#x7126;&#x70B9;&#x8FD4;&#x56DE;&#x5230; minibuffer&#x3002;</p>
+<h4 id="14313-helm-transient-state">14.3.1.3 Helm transient state</h4>
+<p>Spacemacs &#x4E3A; Helm &#x5B9A;&#x4E49;&#x4E86;&#x4E00;&#x4E2A;<a href="http://spacemacs.org/doc/DOCUMENTATION.html#transient-states" target="_blank">&#x4E34;&#x65F6;&#x72B6;&#x6001;</a>&#xFF0C;&#x4F7F;&#x5176;&#x50CF; <a href="https://github.com/Shougo/unite.vim" target="_blank">Vim&apos;s Unite</a> &#x63D2;&#x4EF6;&#x4E00;&#x6837;&#x5DE5;&#x4F5C;&#x3002;</p>
+<p>&#x5728; Helm &#x7F13;&#x51B2;&#x533A;&#x4E2D;&#x7528; M-SPC &#x6216; s-M-SPC &#x542F;&#x52A8;&#x4E34;&#x65F6;&#x72B6;&#x6001;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M-SPC or s-M-SPC</td>
+<td>initiate the transient state</td>
+</tr>
+<tr>
+<td>q</td>
+<td>quit transient state</td>
+</tr>
+<tr>
+<td>TAB</td>
+<td>switch to actions page and leave the transient state</td>
+</tr>
+<tr>
+<td>1</td>
+<td>execute action 0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>execute action 1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>execute action 2</td>
+</tr>
+<tr>
+<td>4</td>
+<td>execute action 3</td>
+</tr>
+<tr>
+<td>5</td>
+<td>execute action 4</td>
+</tr>
+<tr>
+<td>6</td>
+<td>execute action 5</td>
+</tr>
+<tr>
+<td>7</td>
+<td>execute action 6</td>
+</tr>
+<tr>
+<td>8</td>
+<td>execute action 7</td>
+</tr>
+<tr>
+<td>9</td>
+<td>execute action 8</td>
+</tr>
+<tr>
+<td>0</td>
+<td>execute action 9</td>
+</tr>
+<tr>
+<td>a</td>
+<td>switch to actions page</td>
+</tr>
+<tr>
+<td>g</td>
+<td>go to first candidate</td>
+</tr>
+<tr>
+<td>G</td>
+<td>go to last candidate</td>
+</tr>
+<tr>
+<td>h</td>
+<td>go to previous source</td>
+</tr>
+<tr>
+<td>j</td>
+<td>select next candidate</td>
+</tr>
+<tr>
+<td>k</td>
+<td>select previous candidate</td>
+</tr>
+<tr>
+<td>l</td>
+<td>go to next source</td>
+</tr>
+<tr>
+<td>t</td>
+<td>mark current candidate</td>
+</tr>
+<tr>
+<td>T</td>
+<td>mark all candidates</td>
+</tr>
+<tr>
+<td>v</td>
+<td>execute persistent action</td>
+</tr>
+</tbody>
+</table>
+<h3 id="144-discovering">14.4 Discovering</h3>
+<h4 id="1441-key-bindings">14.4.1 Key bindings</h4>
+<h5 id="14411-which-key">14.4.1.1 Which-key</h5>
+<p>&#x6BCF;&#x6B21;&#x5728;&#x6B63;&#x5E38;&#x6A21;&#x5F0F;&#x4E0B;&#x6309;&#x4E0B; SPC &#x952E;&#x65F6;&#x90FD;&#x4F1A;&#x663E;&#x793A;&#x5E2E;&#x52A9;&#x7F13;&#x51B2;&#x533A;&#x3002;&#x5B83;&#x5217;&#x51FA;&#x4E86;&#x53EF;&#x7528;&#x7684;&#x952E;&#x7ED1;&#x5B9A;&#x53CA;&#x5176;&#x76F8;&#x5173;&#x7684;&#x547D;&#x4EE4;&#x3002;</p>
+<p>&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x5728;&#x952E;&#x88AB;&#x6309;&#x4E0B;&#x540E;&#xFF0C;which-key &#x7F13;&#x51B2;&#x5668;&#x5C06;&#x88AB;&#x5FEB;&#x901F;&#x663E;&#x793A;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8BBE;&#x7F6E;&#x4F60;&#x559C;&#x6B22;&#x7684;&#x53D8;&#x91CF; dotspacemacs-which-key-delay &#x6765;&#x6539;&#x53D8;&#x5EF6;&#x8FDF;&#xFF08;&#x503C;&#x5728;&#x79D2;&#xFF09;&#x3002;</p>
+<h5 id="14412-helm-describe-key-bindings">14.4.1.2 Helm describe key bindings</h5>
+<p>&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x6309; SPC &#xFF1F;. &#x641C;&#x7D22;&#x7279;&#x5B9A;&#x7684;&#x952E;&#x7ED1;&#x5B9A;&#x3002;</p>
+<p>&#x901A;&#x8FC7;&#x4F7F;&#x7528; leader &#x952E;&#x7C7B;&#x578B;&#x6765;&#x5C06;&#x5217;&#x8868;&#x7F29;&#x5C0F;&#x5230;&#x67D0;&#x4E9B;&#x952E;&#x7ED1;&#x5B9A;&#xFF0C;&#x4F8B;&#x5982;&#x8FD9;&#x4E2A;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#xFF1A;SPC\ b&#xFF0C;&#x5B83;&#x5C06;&#x5217;&#x51FA;&#x6240;&#x6709;&#x4E0E;&#x7F13;&#x51B2;&#x533A;&#x6709;&#x5173;&#x7684;&#x7ED1;&#x5B9A;&#x3002;</p>
+<h4 id="1442-getting-help">14.4.2 Getting help</h4>
+<p>Describe functions &#x662F;&#x5F3A;&#x5927;&#x7684; emacs introspection &#x547D;&#x4EE4;&#x6765;&#x83B7;&#x53D6;&#x6709;&#x5173;&#x51FD;&#x6570;(functions)&#xFF0C;&#x53D8;&#x91CF;(variables)&#xFF0C;&#x6A21;&#x5F0F;(modes)&#x7B49;&#x4FE1;&#x606F;&#xFF0C;&#x56E0;&#x6B64;&#x8FD9;&#x4E9B;&#x547D;&#x4EE4;&#x662F;&#x7ED1;&#x5B9A;&#x7684;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC h d b</td>
+<td>describe bindings in a helm buffer</td>
+</tr>
+<tr>
+<td>SPC h d c</td>
+<td>describe current character under point</td>
+</tr>
+<tr>
+<td>SPC h d d</td>
+<td>describe current expression under point</td>
+</tr>
+<tr>
+<td>SPC h d f</td>
+<td>describe a function</td>
+</tr>
+<tr>
+<td>SPC h d F</td>
+<td>describe a face</td>
+</tr>
+<tr>
+<td>SPC h d k</td>
+<td>describe a key</td>
+</tr>
+<tr>
+<td>SPC h d K</td>
+<td>describe a keymap</td>
+</tr>
+<tr>
+<td>SPC h d l</td>
+<td>copy last pressed keys that you can paste in gitter chat</td>
+</tr>
+<tr>
+<td>SPC h d m</td>
+<td>describe current modes</td>
+</tr>
+<tr>
+<td>SPC h d p</td>
+<td>describe a package (Emacs built-in function)</td>
+</tr>
+<tr>
+<td>SPC h d P</td>
+<td>describe a package (Spacemacs layer information)</td>
+</tr>
+<tr>
+<td>SPC h d s</td>
+<td>copy system information that you can paste in gitter chat</td>
+</tr>
+<tr>
+<td>SPC h d t</td>
+<td>describe a theme</td>
+</tr>
+<tr>
+<td>SPC h d v</td>
+<td>describe a variable</td>
+</tr>
+</tbody>
+</table>
+<p>&#x5176;&#x4ED6; help &#x952E;&#x7ED1;&#x5B9A;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC h SPC</td>
+<td>discover Spacemacs documentation, layers and packages using helm</td>
+</tr>
+<tr>
+<td>SPC h i</td>
+<td>search in info pages with the symbol at point</td>
+</tr>
+<tr>
+<td>SPC h k</td>
+<td>show top-level bindings with which-key</td>
+</tr>
+<tr>
+<td>SPC h m</td>
+<td>search available man pages</td>
+</tr>
+<tr>
+<td>SPC h n</td>
+<td>browse emacs news</td>
+</tr>
+</tbody>
+</table>
+<p>&#x5728; help-mode &#x4E0B;&#x5BFC;&#x822A;&#x952E;&#x7ED1;&#x5B9A;&#xFF1A;
+Key Binding|    Description
+-- | --
+g b |or [    go back (same as clicking on [back] button)
+g f |or ]    go forward (same as clicking on [forward] button)
+g h    |go to help for symbol under point</p>
+<p>&#x62A5;&#x544A;&#x95EE;&#x9898;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC h I</td>
+<td>Open Spacemacs GitHub issue page with pre-filled information</td>
+</tr>
+<tr>
+<td>SPC u SPC h I</td>
+<td>Open Spacemacs GitHub issue page with pre-filled information - include last pressed keys</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>&#x6CE8;&#x610F;&#xFF1A;&#x5982;&#x679C;&#x8FD9;&#x4E24;&#x4E2A;&#x7ED1;&#x5B9A;&#x4E0E; <em>Backtrace</em> &#x7F13;&#x51B2;&#x533A;&#x6253;&#x5F00;&#x4F7F;&#x7528;&#xFF0C;&#x5219;&#x81EA;&#x52A8;&#x5305;&#x62EC; backtrace</p>
+</blockquote>
+<h4 id="1443-available-layers">14.4.3 Available layers</h4>
+<p>&#x6240;&#x6709;&#x7684;&#x5C42;&#x53EF;&#x4EE5;&#x5F88;&#x5BB9;&#x6613;&#x5730;&#x53D1;&#x73B0;&#x901A;&#x8FC7; helm-spacemacs-help &#x53EF;&#x8BBF;&#x95EE;&#x7684; SPC h SPC&#x3002;
+ &#x3002;</p>
+<p> &#x4E0B;&#x9762;&#x7684; helm actions &#x662F;&#x53EF;&#x7528;&#x7684;&#xFF1A;</p>
+<ul>
+<li>&#x9ED8;&#x8BA4;&#xFF1A;&#x6253;&#x5F00;&#x56FE;&#x5C42; readme.org</li>
+<li>&#x7B2C;&#x4E8C;&#xFF1A;&#x6253;&#x5F00;&#x56FE;&#x5C42; packages.el</li>
+</ul>
+<h5 id="14431-available-packages-in-spacemacs">14.4.3.1 Available packages in Spacemacs</h5>
+<p>helm-spacemacs-help &#x8FD8;&#x5217;&#x51FA;&#x4E86; Spacemacs &#x4E2D;&#x53EF;&#x7528;&#x7684;&#x6240;&#x6709;&#x8F6F;&#x4EF6;&#x5305;&#x3002;&#x5165;&#x53E3;&#x683C;&#x5F0F;&#x662F;&#xFF08;layer&#xFF09;&#x5305;&#x3002;&#x5982;&#x679C;&#x4F60;&#x8F93;&#x5165; flycheck&#xFF0C;&#x4F60;&#x5C06;&#x80FD;&#x591F;&#x770B;&#x5230;&#x6240;&#x6709;&#x4F7F;&#x7528; flycheck &#x7684; layers&#x3002;</p>
+<p>&#x8F6F;&#x4EF6;&#x5305;&#x4E2D;&#x6709;&#x4EE5;&#x4E0B; helm &#x64CD;&#x4F5C;&#xFF1A;</p>
+<ul>
+<li>&#x9ED8;&#x8BA4;&#xFF1A;&#x53BB;&#x5305;&#x521D;&#x59CB;&#x5316;&#x51FD;&#x6570;</li>
+</ul>
+<h5 id="14432-new-packages-from-elpa-repositories">14.4.3.2 New packages from ELPA repositories</h5>
+<p>package-list-packages &#x662F;&#x60A8;&#x53EF;&#x4EE5;&#x5728;&#x4E0D;&#x540C;&#x7684; Elpa &#x8F6F;&#x4EF6;&#x4ED3;&#x5E93;&#x4E2D;&#x6D4F;&#x89C8;&#x6240;&#x6709;&#x53EF;&#x7528;&#x8F6F;&#x4EF6;&#x5305;&#x7684;&#x5730;&#x65B9;&#x3002;&#x53EF;&#x4EE5;&#x4ECE;&#x90A3;&#x91CC;&#x5347;&#x7EA7;&#x8F6F;&#x4EF6;&#x5305;&#xFF0C;&#x4F46;&#x4E0D;&#x5EFA;&#x8BAE;&#x4F7F;&#x7528; spacemacs &#x542F;&#x52A8;&#x9875;&#x9762;&#x4E0A;&#x7684; [Update Packages] &#x94FE;&#x63A5;&#x3002;</p>
+<p>Spacemacs &#x4F7F;&#x7528; <a href="https://github.com/Malabarba/paradox" target="_blank">Paradox</a> &#x800C;&#x4E0D;&#x662F; package-list-packages &#x6765;&#x5217;&#x51FA;&#x53EF;&#x7528;&#x7684; ELPA &#x5305;&#x3002;Paradox &#x589E;&#x5F3A;&#x4E86;&#x66F4;&#x597D;&#x7684;&#x53CD;&#x9988;&#xFF0C;&#x65B0;&#x7684;&#x8FC7;&#x6EE4;&#x5668;&#x548C; github &#x4FE1;&#x606F;&#xFF0C;&#x5982;&#x661F;&#x661F;&#x6570;&#x91CF;&#x7684;&#x8F6F;&#x4EF6;&#x5305;&#x5217;&#x8868;&#x7F13;&#x51B2;&#x533A;&#x3002;&#x4E5F;&#x53EF;&#x4EE5;&#x9009;&#x62E9;&#x76F4;&#x63A5;&#x5728;&#x7F13;&#x51B2;&#x533A;&#x4E2D;&#x6253;&#x5305;&#x3002;</p>
+<blockquote>
+<p>&#x91CD;&#x8981;&#x7684;&#x6CE8;&#x610F;&#x4E8B;&#x9879;1&#xFF1A;&#x4ECE; <strong>Paradox</strong> &#x5B89;&#x88C5;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x5305;&#x4E0D;&#x4F1A;&#x4F7F;&#x5176;&#x6301;&#x4E45;&#x3002;&#x8981;&#x6301;&#x4E45;&#x5730;&#x5B89;&#x88C5;&#x8F6F;&#x4EF6;&#x5305;&#xFF0C;&#x5FC5;&#x987B;&#x5C06;&#x5176;&#x660E;&#x786E;&#x6DFB;&#x52A0;&#x5230;&#x914D;&#x7F6E;&#x5C42;&#x3002;</p>
+<p>&#x91CD;&#x8981;&#x8BF4;&#x660E;2&#xFF1A;&#x4E0D;&#x8981;&#x4ECE;  <strong>Paradox</strong> &#x6216; <strong>package-list-packages</strong> &#x66F4;&#x65B0;&#x8F6F;&#x4EF6;&#x5305;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x4EEC;&#x4E0D;&#x652F;&#x6301; Spacemacs &#x7684;&#x56DE;&#x6EDA;&#x529F;&#x80FD;&#x3002;</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC a k</td>
+<td>launch paradox</td>
+</tr>
+<tr>
+<td>/</td>
+<td>evil-search</td>
+</tr>
+<tr>
+<td>f k</td>
+<td>filter by keywords</td>
+</tr>
+<tr>
+<td>f r</td>
+<td>filter by regexp</td>
+</tr>
+<tr>
+<td>f u</td>
+<td>display only installed package with updates available</td>
+</tr>
+<tr>
+<td>h</td>
+<td>go left</td>
+</tr>
+<tr>
+<td>H</td>
+<td>show help (not accurate)</td>
+</tr>
+<tr>
+<td>j</td>
+<td>go down</td>
+</tr>
+<tr>
+<td>k</td>
+<td>go up</td>
+</tr>
+<tr>
+<td>l</td>
+<td>go right</td>
+</tr>
+<tr>
+<td>L</td>
+<td>show last commits</td>
+</tr>
+<tr>
+<td>n</td>
+<td>next search occurrence</td>
+</tr>
+<tr>
+<td>N</td>
+<td>previous search occurrence</td>
+</tr>
+<tr>
+<td>o</td>
+<td>open package homepage</td>
+</tr>
+<tr>
+<td>r</td>
+<td>refresh</td>
+</tr>
+<tr>
+<td>S P</td>
+<td>sort by package name</td>
+</tr>
+<tr>
+<td>S S</td>
+<td>sort by status (installed, available, etc&#x2026;)</td>
+</tr>
+<tr>
+<td>S *</td>
+<td>sort by Github stars</td>
+</tr>
+<tr>
+<td>v</td>
+<td>visual state</td>
+</tr>
+<tr>
+<td>V</td>
+<td>visual-line state</td>
+</tr>
+<tr>
+<td>x</td>
+<td>execute (action flags)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="1444-toggles">14.4.4 Toggles</h4>
+<p>helm-spacemacs-help &#x4E5F;&#x662F;&#x53D1;&#x73B0;&#x53EF;&#x7528;&#x5207;&#x6362;&#x7684;&#x4E2D;&#x5FC3;&#x4F4D;&#x7F6E;&#x3002;&#x53EA;&#x663E;&#x793A;&#x5207;&#x6362;&#x6E90;&#x6309;&#x4E0B; C-l&#xFF08;&#x6216;&#x5728;<a href="http://spacemacs.org/doc/DOCUMENTATION.html#helm-transient-state" target="_blank"> helm &#x4E34;&#x65F6;&#x72B6;&#x6001;</a>&#x4E0B;&#x6309; l&#xFF09;&#x3002;</p>
+<p>&#x8F6F;&#x4EF6;&#x5305;&#x4E2D;&#x6709;&#x4EE5;&#x4E0B; helm &#x64CD;&#x4F5C;&#xFF1A;</p>
+<ul>
+<li>&#x9ED8;&#x8BA4;&#x503C;&#xFF1A;&#x6253;&#x5F00;/&#x5173;&#x95ED;</li>
+</ul>
+<p>&#x63D0;&#x793A;&#x4F7F;&#x7528; SPC h l &#x6765;&#x6062;&#x590D;&#x6700;&#x540E;&#x7684; helm &#x4F1A;&#x8BDD;&#x3002;&#x5FEB;&#x901F;&#x6253;&#x5F00;&#x548C;&#x5173;&#x95ED;&#x5207;&#x6362;&#x662F;&#x5F88;&#x65B9;&#x4FBF;&#x7684;&#x3002;</p>
+<h3 id="145-navigating">14.5 Navigating</h3>
+<h4 id="1451-pointcursor">14.5.1 Point/Cursor</h4>
+<p>&#x5BFC;&#x822A;&#x662F;&#x4F7F;&#x7528; Vi &#x952E;&#x7ED1;&#x5B9A; hjkl &#x6765;&#x6267;&#x884C;&#x7684;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>h</td>
+<td>move cursor left</td>
+</tr>
+<tr>
+<td>j</td>
+<td>move cursor down</td>
+</tr>
+<tr>
+<td>k</td>
+<td>move cursor up</td>
+</tr>
+<tr>
+<td>l</td>
+<td>move cursor right</td>
+</tr>
+<tr>
+<td>H</td>
+<td>move cursor to the top of the screen</td>
+</tr>
+<tr>
+<td>L</td>
+<td>move cursor to the bottom of the screen</td>
+</tr>
+<tr>
+<td>SPC j 0</td>
+<td>go to the beginning of line (and set a mark at the previous location in the line)</td>
+</tr>
+<tr>
+<td>SPC j $</td>
+<td>go to the end of line (and set a mark at the previous location in the line)</td>
+</tr>
+<tr>
+<td>SPC t -</td>
+<td>lock the cursor at the center of the screen</td>
+</tr>
+</tbody>
+</table>
+<h5 id="14511-smooth-scrolling">14.5.1.1 Smooth scrolling</h5>
+<p><a href="https://github.com/aspiers/smooth-scrolling" target="_blank">smooth-scrolling</a> &#x9632;&#x6B62;&#x70B9;&#x5230;&#x8FBE;&#x5C4F;&#x5E55;&#x7684;&#x9876;&#x90E8;&#x6216;&#x5E95;&#x90E8;&#x65F6;&#x8DF3;&#x8F6C;&#x3002;&#x5B83;&#x662F;&#x9ED8;&#x8BA4;&#x542F;&#x7528;&#x7684;&#x3002;</p>
+<p>&#x5728; Windows &#x4E0A;&#xFF0C;&#x4F60;&#x53EF;&#x80FD;&#x60F3;&#x7981;&#x7528;&#x5B83;&#x3002;&#x7981;&#x7528;&#x5E73;&#x6ED1;&#x6EDA;&#x52A8;&#xFF0C;&#x5C06; &#x301C;/.spacemacs &#x4E2D;&#x7684; dotspacemacs-smooth-scrolling &#x53D8;&#x91CF;&#x8BBE;&#x7F6E;&#x4E3A;nil&#xFF1A;</p>
+<pre><code class="lang-lisp">(<span class="hljs-name">setq-default</span> dotspacemacs-smooth-scrolling <span class="hljs-literal">nil</span>)
+</code></pre>
+<p>&#x60A8;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; SPC t v &#x5207;&#x6362;&#x5E73;&#x6ED1;&#x6EDA;&#x52A8;&#x3002;</p>
+<h4 id="1452-vim-motions-with-avy">14.5.2 Vim motions with avy</h4>
+<p>Spacemacs &#x4F7F;&#x7528; avy &#x7684; evil &#x7684;&#x6574;&#x5408;&#xFF0C;&#x4F7F;&#x8FD0;&#x884C;&#x671F;&#x95F4; avy &#x7684;&#x8C03;&#x7528;&#x3002;</p>
+<p>&#x4F8B;&#x5982;&#xFF0C;&#x4ECE;&#x5F53;&#x524D;&#x884C;&#x5220;&#x9664;&#x4E00;&#x7EC4;&#x89C6;&#x89C9;&#x7EBF;&#x662F;&#x6709;&#x7528;&#x7684;&#x3002;&#x5728;&#x5305;&#x542B;&#x4E00;&#x4E9B;&#x6587;&#x672C;&#x7684;&#x7F13;&#x51B2;&#x533A;&#x4E2D;&#x5C1D;&#x8BD5;&#x4EE5;&#x4E0B;&#x987A;&#x5E8F;&#xFF1A;d SPC j l&#xFF0C;&#x7136;&#x540E;&#x9009;&#x62E9;&#x4E00;&#x4E2A; avy &#x5019;&#x9009;&#x9879;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC j b</td>
+<td>go back to the previous location (before the jump)</td>
+</tr>
+<tr>
+<td>SPC j j</td>
+<td>initiate avy jump char</td>
+</tr>
+<tr>
+<td>SPC j w</td>
+<td>initiate avy jump word</td>
+</tr>
+<tr>
+<td>SPC j l</td>
+<td>initiate avy jump line</td>
+</tr>
+</tbody>
+</table>
+<h5 id="14521-ace-link-mode">14.5.2.1 ace-link mode</h5>
+<p>&#x7C7B;&#x4F3C;&#x4E8E; avy&#xFF0C;ace-link &#x5141;&#x8BB8;&#x7528;&#x6237;&#x901A;&#x8FC7;&#x4E24;&#x4E2A;&#x6309;&#x952E;&#x8DF3;&#x8F6C;&#x5230; help-mode &#x548C; info-mode &#x4E0B;&#x7684;&#x4EFB;&#x4F55;&#x94FE;&#x63A5;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>o</td>
+<td>&#x5728; help-mode &#x548C; info-mode &#x4E0B;&#x542F;&#x52A8; ace-link</td>
+</tr>
+</tbody>
+</table>
+<h4 id="1453-unimpaired-bindings">14.5.3 Unimpaired bindings</h4>
+<p>Spacemacs &#x5E26;&#x6709;&#x4E00;&#x4E2A;&#x5185;&#x7F6E;&#x7684; <a href="https://github.com/tpope/vim-unimpaired" target="_blank">tpope&apos;s vim-unimpaired</a> &#x7AEF;&#x53E3;&#x3002;</p>
+<p>&#x8FD9;&#x4E2A;&#x63D2;&#x4EF6;&#x63D0;&#x4F9B;&#x4E86;&#x51E0;&#x5BF9;&#x62EC;&#x53F7;&#x6620;&#x5C04;&#xFF0C;&#x4F7F;&#x7528; [ &#x8868;&#x793A;&#x524D;&#x4E00;&#x4E2A;&#xFF0C;] &#x8868;&#x793A;&#x4E0B;&#x4E00;&#x4E2A;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>KeyBindings</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[ SPC</td>
+<td>Insert space above</td>
+</tr>
+<tr>
+<td>] SPC</td>
+<td>Insert space below</td>
+</tr>
+<tr>
+<td>[ b</td>
+<td>Go to previous buffer</td>
+</tr>
+<tr>
+<td>] b</td>
+<td>Go to next buffer</td>
+</tr>
+<tr>
+<td>[ f</td>
+<td>Go to previous file in directory</td>
+</tr>
+<tr>
+<td>] f</td>
+<td>Go to next file in directory</td>
+</tr>
+<tr>
+<td>[ l</td>
+<td>Go to the previous error</td>
+</tr>
+<tr>
+<td>] l</td>
+<td>Go to the next error</td>
+</tr>
+<tr>
+<td>[ h</td>
+<td>Go to the previous vcs hunk</td>
+</tr>
+<tr>
+<td>] h</td>
+<td>Go to the next vcs hunk</td>
+</tr>
+<tr>
+<td>[ q</td>
+<td>Go to the previous error</td>
+</tr>
+<tr>
+<td>] q</td>
+<td>Go to the next error</td>
+</tr>
+<tr>
+<td>[ t</td>
+<td>Go to the previous frame</td>
+</tr>
+<tr>
+<td>] t</td>
+<td>Go to the next frame</td>
+</tr>
+<tr>
+<td>[ w</td>
+<td>Go to the previous window</td>
+</tr>
+<tr>
+<td>] w</td>
+<td>Go to the next window</td>
+</tr>
+<tr>
+<td>[ e</td>
+<td>Move line up</td>
+</tr>
+<tr>
+<td>] e</td>
+<td>Move line down</td>
+</tr>
+<tr>
+<td>[ p</td>
+<td>Paste above current line</td>
+</tr>
+<tr>
+<td>] p</td>
+<td>Paste below current line</td>
+</tr>
+<tr>
+<td>g p</td>
+<td>Select pasted text</td>
+</tr>
+</tbody>
+</table>
+<h4 id="1454-jumping-joining-and-splitting">14.5.4 Jumping, Joining and Splitting</h4>
+<p>SPC j &#x524D;&#x7F00;&#x7528;&#x4E8E;&#x8DF3;&#x8F6C;(jumping)&#xFF0C;&#x8FDE;&#x63A5;(joining)&#x548C;&#x5206;&#x5272;(splitting)&#x3002;</p>
+<h5 id="14541-jumping">14.5.4.1 Jumping</h5>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC j 0</td>
+<td>go to the beginning of line (and set a mark at the previous location in the line)</td>
+</tr>
+<tr>
+<td>SPC j $</td>
+<td>go to the end of line (and set a mark at the previous location in the line)</td>
+</tr>
+<tr>
+<td>SPC j b</td>
+<td>undo a jump (go back to previous location)</td>
+</tr>
+<tr>
+<td>SPC j d</td>
+<td>jump to a listing of the current directory</td>
+</tr>
+<tr>
+<td>SPC j D</td>
+<td>jump to a listing of the current directory (other window)</td>
+</tr>
+<tr>
+<td>SPC j f</td>
+<td>jump to the definition of an Emacs Lisp function</td>
+</tr>
+<tr>
+<td>SPC j i</td>
+<td>jump to a definition in buffer (imenu)</td>
+</tr>
+<tr>
+<td>SPC j I</td>
+<td>jump to a definition in any buffer (imenu)</td>
+</tr>
+<tr>
+<td>SPC j j</td>
+<td>jump to a character in the buffer (works as an evil motion)</td>
+</tr>
+<tr>
+<td>SPC j J</td>
+<td>jump to a suite of two characters in the buffer (works as an evil motion)</td>
+</tr>
+<tr>
+<td>SPC j k</td>
+<td>jump to next line and indent it using auto-indent rules</td>
+</tr>
+<tr>
+<td>SPC j l</td>
+<td>jump to a line with avy (works as an evil motion)</td>
+</tr>
+<tr>
+<td>SPC j q</td>
+<td>show the dumb-jump quick look tooltip</td>
+</tr>
+<tr>
+<td>SPC j u</td>
+<td>jump to a URL in the current buffer</td>
+</tr>
+<tr>
+<td>SPC j v</td>
+<td>jump to the definition/declaration of an Emacs Lisp variable</td>
+</tr>
+<tr>
+<td>SPC j w</td>
+<td>jump to a word in the current buffer (works as an evil motion)</td>
+</tr>
+</tbody>
+</table>
+<h5 id="14542-joining-and-splitting">14.5.4.2 Joining and splitting</h5>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>J</td>
+<td>join the current line with the next line</td>
+</tr>
+<tr>
+<td>SPC j k</td>
+<td>go to next line and indent it using auto-indent rules</td>
+</tr>
+<tr>
+<td>SPC j n</td>
+<td>split the current line at point, insert a new line and auto-indent</td>
+</tr>
+<tr>
+<td>SPC j s</td>
+<td>split a quoted string or s-expression in place</td>
+</tr>
+<tr>
+<td>SPC j S</td>
+<td>split a quoted string or s-expression, insert a new line and auto-indent</td>
+</tr>
+</tbody>
+</table>
+<h4 id="1455-window-manipulation">14.5.5 Window manipulation</h4>
+<h5 id="14551-window-manipulation-key-bindings">14.5.5.1 Window manipulation key bindings</h5>
+<p>&#x6BCF;&#x4E2A;&#x7A97;&#x53E3;&#x90FD;&#x6709;&#x4E00;&#x4E2A; &#x5728;mode-line &#x5F00;&#x59CB;&#x5904;&#x663E;&#x793A;&#x7684;&#x6570;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; SPC number &#x5FEB;&#x901F;&#x8BBF;&#x95EE;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC 1</td>
+<td>go to window number 1</td>
+</tr>
+<tr>
+<td>SPC 2</td>
+<td>go to window number 2</td>
+</tr>
+<tr>
+<td>SPC 3</td>
+<td>go to window number 3</td>
+</tr>
+<tr>
+<td>SPC 4</td>
+<td>go to window number 4</td>
+</tr>
+<tr>
+<td>SPC 5</td>
+<td>go to window number 5</td>
+</tr>
+<tr>
+<td>SPC 6</td>
+<td>go to window number 6</td>
+</tr>
+<tr>
+<td>SPC 7</td>
+<td>go to window number 7</td>
+</tr>
+<tr>
+<td>SPC 8</td>
+<td>go to window number 8</td>
+</tr>
+<tr>
+<td>SPC 9</td>
+<td>go to window number 9</td>
+</tr>
+<tr>
+<td>SPC 0</td>
+<td>go to window number 0</td>
+</tr>
+</tbody>
+</table>
+<p>Windows&#x64CD;&#x4F5C;&#x547D;&#x4EE4;&#xFF08;&#x4EE5; w &#x5F00;&#x5934;&#xFF09;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC w =</td>
+<td>balance split windows</td>
+</tr>
+<tr>
+<td>SPC w b</td>
+<td>force the focus back to the minibuffer (usefull with helm popups)</td>
+</tr>
+<tr>
+<td>SPC w c</td>
+<td>maximize/minimize a window and center it</td>
+</tr>
+<tr>
+<td>SPC w C</td>
+<td>maximize/minimize a window and center it using ace-window</td>
+</tr>
+<tr>
+<td>SPC w d</td>
+<td>delete a window</td>
+</tr>
+<tr>
+<td>SPC u SPC w d</td>
+<td>delete a window and its current buffer (does not delete the file)</td>
+</tr>
+<tr>
+<td>SPC w D</td>
+<td>delete another window using ace-window</td>
+</tr>
+<tr>
+<td>SPC u SPC w D</td>
+<td>delete another window and its current buffer using ace-window</td>
+</tr>
+<tr>
+<td>SPC w t</td>
+<td>toggle window dedication (dedicated window cannot be reused by a mode)</td>
+</tr>
+<tr>
+<td>SPC w f</td>
+<td>toggle follow mode</td>
+</tr>
+<tr>
+<td>SPC w F</td>
+<td>create new frame</td>
+</tr>
+<tr>
+<td>SPC w h</td>
+<td>move to window on the left</td>
+</tr>
+<tr>
+<td>SPC w H</td>
+<td>move window to the left</td>
+</tr>
+<tr>
+<td>SPC w j</td>
+<td>move to window below</td>
+</tr>
+<tr>
+<td>SPC w J</td>
+<td>move window to the bottom</td>
+</tr>
+<tr>
+<td>SPC w k</td>
+<td>move to window above</td>
+</tr>
+<tr>
+<td>SPC w K</td>
+<td>move window to the top</td>
+</tr>
+<tr>
+<td>SPC w l</td>
+<td>move to window on the right</td>
+</tr>
+<tr>
+<td>SPC w L</td>
+<td>move window to the right</td>
+</tr>
+<tr>
+<td>SPC w m</td>
+<td>maximize/minimize a window (maximize is equivalent to delete other windows)</td>
+</tr>
+<tr>
+<td>SPC w M</td>
+<td>swap windows using ace-window</td>
+</tr>
+<tr>
+<td>SPC w o</td>
+<td>cycle and focus between frames</td>
+</tr>
+<tr>
+<td>SPC w p m</td>
+<td>open messages buffer in a popup window</td>
+</tr>
+<tr>
+<td>SPC w p p</td>
+<td>close the current sticky popup window</td>
+</tr>
+<tr>
+<td>SPC w r</td>
+<td>rotate windows forward</td>
+</tr>
+<tr>
+<td>SPC w R</td>
+<td>rotate windows backward</td>
+</tr>
+<tr>
+<td>SPC w s or SPC w -</td>
+<td>horizontal split</td>
+</tr>
+<tr>
+<td>SPC w S</td>
+<td>horizontal split and focus new window</td>
+</tr>
+<tr>
+<td>SPC w u</td>
+<td>undo window layout (used to effectively undo a closed window)</td>
+</tr>
+<tr>
+<td>SPC w U</td>
+<td>redo window layout</td>
+</tr>
+<tr>
+<td>SPC w v or SPC w /</td>
+<td>vertical split</td>
+</tr>
+<tr>
+<td>SPC w V</td>
+<td>vertical split and focus new window</td>
+</tr>
+<tr>
+<td>SPC w w</td>
+<td>cycle and focus between windows</td>
+</tr>
+<tr>
+<td>SPC w W</td>
+<td>select window using ace-window</td>
+</tr>
+</tbody>
+</table>
+<h5 id="14552-window-manipulation-transient-state">14.5.5.2 Window manipulation transient state</h5>
+<p>&#x4E00;&#x4E2A;&#x65B9;&#x4FBF;&#x7684;&#x7A97;&#x53E3;&#x64CD;&#x4F5C;&#x4E34;&#x65F6;&#x72B6;&#x6001;&#x5141;&#x8BB8;&#x6267;&#x884C;&#x4E0A;&#x9762;&#x5217;&#x51FA;&#x7684;&#x5927;&#x90E8;&#x5206;&#x64CD;&#x4F5C;&#x4E34;&#x65F6;&#x72B6;&#x6001;&#x5141;&#x8BB8;&#x989D;&#x5916;&#x7684;&#x884C;&#x4E3A;&#xFF0C;&#x5982;&#x7A97;&#x53E3;&#x5927;&#x5C0F;&#x8C03;&#x6574;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC w .</td>
+<td>initiate transient state</td>
+</tr>
+<tr>
+<td>?</td>
+<td>display the full documentation in minibuffer</td>
+</tr>
+<tr>
+<td>0</td>
+<td>go to window number 0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>go to window number 1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>go to window number 2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>go to window number 3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>go to window number 4</td>
+</tr>
+<tr>
+<td>5</td>
+<td>go to window number 5</td>
+</tr>
+<tr>
+<td>6</td>
+<td>go to window number 6</td>
+</tr>
+<tr>
+<td>7</td>
+<td>go to window number 7</td>
+</tr>
+<tr>
+<td>8</td>
+<td>go to window number 8</td>
+</tr>
+<tr>
+<td>9</td>
+<td>go to window number 9</td>
+</tr>
+<tr>
+<td>/</td>
+<td>vertical split</td>
+</tr>
+<tr>
+<td>-</td>
+<td>horizontal split</td>
+</tr>
+<tr>
+<td>[</td>
+<td>shrink window horizontally</td>
+</tr>
+<tr>
+<td>]</td>
+<td>enlarge window horizontally</td>
+</tr>
+<tr>
+<td>{</td>
+<td>shrink window vertically</td>
+</tr>
+<tr>
+<td>}</td>
+<td>enlarge window vertically</td>
+</tr>
+<tr>
+<td>d</td>
+<td>delete window</td>
+</tr>
+<tr>
+<td>D</td>
+<td>delete other windows</td>
+</tr>
+<tr>
+<td>g</td>
+<td>toggle golden-ratio on and off</td>
+</tr>
+<tr>
+<td>h</td>
+<td>go to window on the left</td>
+</tr>
+<tr>
+<td>j</td>
+<td>go to window below</td>
+</tr>
+<tr>
+<td>k</td>
+<td>go to window above</td>
+</tr>
+<tr>
+<td>l</td>
+<td>go to window on the right</td>
+</tr>
+<tr>
+<td>H</td>
+<td>move window to the left</td>
+</tr>
+<tr>
+<td>J</td>
+<td>move window to the bottom</td>
+</tr>
+<tr>
+<td>K</td>
+<td>move bottom to the top</td>
+</tr>
+<tr>
+<td>L</td>
+<td>move window to the right</td>
+</tr>
+<tr>
+<td>o</td>
+<td>focus other frame</td>
+</tr>
+<tr>
+<td>r</td>
+<td>rotate windows forward</td>
+</tr>
+<tr>
+<td>R</td>
+<td>rotate windows backward</td>
+</tr>
+<tr>
+<td>s</td>
+<td>horizontal split</td>
+</tr>
+<tr>
+<td>S</td>
+<td>horizontal split and focus new window</td>
+</tr>
+<tr>
+<td>u</td>
+<td>undo window layout (used to effectively undo a closed window)</td>
+</tr>
+<tr>
+<td>U</td>
+<td>redo window layout</td>
+</tr>
+<tr>
+<td>v</td>
+<td>vertical split</td>
+</tr>
+<tr>
+<td>V</td>
+<td>horizontal split and focus new window</td>
+</tr>
+<tr>
+<td>w</td>
+<td>focus other window</td>
+</tr>
+<tr>
+<td>Any other key</td>
+<td>leave the transient state</td>
+</tr>
+</tbody>
+</table>
+<h5 id="14553-golden-ratio">14.5.5.3 Golden ratio</h5>
+<p>&#x5982;&#x679C;&#x4F60;&#x50CF;&#x75AF;&#x4E86;&#x4E00;&#x6837;&#x8C03;&#x6574;&#x7A97;&#x53E3;&#x5927;&#x5C0F;&#xFF0C;&#x4F60;&#x53EF;&#x80FD;&#x60F3;&#x5C1D;&#x8BD5;&#x4E00;&#x4E0B;<a href="https://github.com/roman/golden-ratio.el" target="_blank">&#x9EC4;&#x91D1;&#x6BD4;&#x4F8B;</a>&#x3002;</p>
+<p>&#x9EC4;&#x91D1;&#x6BD4;&#x4F8B;&#x52A8;&#x6001;&#x8C03;&#x6574;&#x7A97;&#x53E3;&#x7684;&#x5927;&#x5C0F;&#xFF0C;&#x53D6;&#x51B3;&#x4E8E;&#x5B83;&#x4EEC;&#x662F;&#x5426;&#x88AB;&#x9009;&#x4E2D;&#x3002;&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x9EC4;&#x91D1;&#x6BD4;&#x4F8B;&#x5173;&#x95ED;&#x3002;</p>
+<p>&#x53EF;&#x4EE5;&#x4F7F;&#x7528; SPC t g &#x6765;&#x6253;&#x5F00;&#x548C;&#x5173;&#x95ED;&#x6A21;&#x5F0F;&#x3002;</p>
+<h4 id="1456-buffers-and-files">14.5.6 Buffers and Files</h4>
+<p>&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;Spacemacs &#x4F7F;&#x7528; helm &#x6765;&#x6253;&#x5F00;&#x6587;&#x4EF6;&#x3002;</p>
+<h5 id="14561-buffers-manipulation-key-bindings">14.5.6.1 Buffers manipulation key bindings</h5>
+<p>&#x7F13;&#x51B2;&#x533A;&#x64CD;&#x4F5C;&#x547D;&#x4EE4;&#xFF08;&#x4EE5; b &#x5F00;&#x5934;&#xFF09;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC TAB</td>
+<td>switch to alternate buffer in the current window (switch back and forth)</td>
+</tr>
+<tr>
+<td>SPC b b</td>
+<td>switch to a buffer using helm</td>
+</tr>
+<tr>
+<td>SPC b d</td>
+<td>kill the current buffer (does not delete the visited file)</td>
+</tr>
+<tr>
+<td>SPC u SPC b d</td>
+<td>kill the current buffer and window (does not delete the visited file)</td>
+</tr>
+<tr>
+<td>SPC b D</td>
+<td>kill a visible buffer using ace-window</td>
+</tr>
+<tr>
+<td>SPC u SPC b D</td>
+<td>kill a visible buffer and its window using ace-window</td>
+</tr>
+<tr>
+<td>SPC b C-d</td>
+<td>kill buffers using a regular expression</td>
+</tr>
+<tr>
+<td>SPC b e</td>
+<td>erase the content of the buffer (ask for confirmation)</td>
+</tr>
+<tr>
+<td>SPC b h</td>
+<td>open <em>spacemacs</em> home buffer</td>
+</tr>
+<tr>
+<td>SPC b n</td>
+<td>switch to next buffer avoiding special buffers</td>
+</tr>
+<tr>
+<td>SPC b m</td>
+<td>kill all buffers except the current one</td>
+</tr>
+<tr>
+<td>SPC u SPC b m</td>
+<td>kill all buffers and windows except the current one</td>
+</tr>
+<tr>
+<td>SPC b M</td>
+<td>kill all buffers matching the regexp</td>
+</tr>
+<tr>
+<td>SPC b p</td>
+<td>switch to previous buffer avoiding special buffers</td>
+</tr>
+<tr>
+<td>SPC b P</td>
+<td>copy clipboard and replace buffer (useful when pasting from a browser)</td>
+</tr>
+<tr>
+<td>SPC b R</td>
+<td>revert the current buffer (reload from disk)</td>
+</tr>
+<tr>
+<td>SPC b s</td>
+<td>switch to the <em>scratch</em> buffer (create it if needed)</td>
+</tr>
+<tr>
+<td>SPC b w</td>
+<td>toggle read-only (writable state)</td>
+</tr>
+<tr>
+<td>SPC b Y</td>
+<td>copy whole buffer to clipboard (useful when copying to a browser)</td>
+</tr>
+<tr>
+<td>z f</td>
+<td>Make current function or comments visible in buffer as much as possible</td>
+</tr>
+</tbody>
+</table>
+<h5 id="14562-buffers-manipulation-transient-state">14.5.6.2 Buffers manipulation transient state</h5>
+<p>&#x4E00;&#x4E2A;&#x65B9;&#x4FBF;&#x7684;&#x7F13;&#x51B2;&#x533A;&#x64CD;&#x4F5C;&#x77AC;&#x6001;&#x5141;&#x8BB8;&#x901A;&#x8FC7;&#x6253;&#x5F00;&#x7684;&#x7F13;&#x51B2;&#x533A;&#x5FEB;&#x901F;&#x5FAA;&#x73AF;&#x5E76;&#x6740;&#x6B7B;&#x5B83;&#x4EEC;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC b .</td>
+<td>initiate transient state</td>
+</tr>
+<tr>
+<td>K</td>
+<td>kill current buffer</td>
+</tr>
+<tr>
+<td>n</td>
+<td>go to next buffer (avoid special buffers)</td>
+</tr>
+<tr>
+<td>N</td>
+<td>go to previous buffer (avoid special buffers)</td>
+</tr>
+<tr>
+<td>Any other key</td>
+<td>leave the transient state</td>
+</tr>
+</tbody>
+</table>
+<h5 id="14563-special-buffers">14.5.6.3 Special Buffers</h5>
+<p>&#x4E0D;&#x50CF; vim&#xFF0C;emacs &#x521B;&#x5EFA;&#x4E86;&#x5927;&#x591A;&#x6570;&#x4EBA;&#x4E0D;&#x9700;&#x8981;&#x770B;&#x7684;&#x7F13;&#x51B2;&#x533A;&#x3002;&#x4E00;&#x4E9B;&#x4F8B;&#x5B50;&#x662F; <em>messages</em> &#x548C; <em>compile-log</em>&#x3002;Spacemacs &#x4F1A;&#x5C1D;&#x8BD5;&#x81EA;&#x52A8;&#x5FFD;&#x7565;&#x65E0;&#x7528;&#x7684;&#x7F13;&#x51B2;&#x533A;&#x3002;&#x4E0D;&#x8FC7;&#xFF0C;&#x60A8;&#x53EF;&#x80FD;&#x9700;&#x8981;&#x66F4;&#x6539; spacemacs &#x5C06;&#x7F13;&#x51B2;&#x533A;&#x6807;&#x8BB0;&#x4E3A;&#x6709;&#x7528;&#x7684;&#x65B9;&#x5F0F;&#x3002;&#x6709;&#x5173;&#x8BF4;&#x660E;&#xFF0C;&#x8BF7;&#x53C2;&#x9605;<a href="http://spacemacs.org/doc/FAQ.html#MissingReference" target="_blank">&#x7279;&#x6B8A;&#x7F13;&#x51B2;&#x533A; howto</a>&#x3002;</p>
+<h5 id="14564-files-manipulations-key-bindings">14.5.6.4 Files manipulations key bindings</h5>
+<p>&#x6587;&#x4EF6;&#x64CD;&#x4F5C;&#x547D;&#x4EE4;&#xFF08;&#x4EE5;f&#x5F00;&#x5934;&#xFF09;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC f b</td>
+<td>go to file bookmarks</td>
+</tr>
+<tr>
+<td>SPC f c</td>
+<td>copy current file to a different location</td>
+</tr>
+<tr>
+<td>SPC f C d</td>
+<td>convert file from unix to dos encoding</td>
+</tr>
+<tr>
+<td>SPC f C u</td>
+<td>convert file from dos to unix encoding</td>
+</tr>
+<tr>
+<td>SPC f D</td>
+<td>delete a file and the associated buffer (ask for confirmation)</td>
+</tr>
+<tr>
+<td>SPC f E</td>
+<td>open a file with elevated privileges (sudo edit)</td>
+</tr>
+<tr>
+<td>SPC f f</td>
+<td>open file with helm</td>
+</tr>
+<tr>
+<td>SPC f F</td>
+<td>try to open the file under point helm</td>
+</tr>
+<tr>
+<td>SPC f h</td>
+<td>open binary file with hexl (a hex editor)</td>
+</tr>
+<tr>
+<td>SPC f j</td>
+<td>jump to the current buffer file in dired</td>
+</tr>
+<tr>
+<td>SPC f J</td>
+<td>open a junk file, in mode determined by the file extension provided (defaulting to fundamental mode), using helm (or ivy)</td>
+</tr>
+<tr>
+<td>SPC f l</td>
+<td>open file literally in fundamental mode</td>
+</tr>
+<tr>
+<td>SPC f L</td>
+<td>Locate a file (using locate)</td>
+</tr>
+<tr>
+<td>SPC f o</td>
+<td>open a file using the default external program</td>
+</tr>
+<tr>
+<td>SPC f R</td>
+<td>rename the current file</td>
+</tr>
+<tr>
+<td>SPC f s</td>
+<td>save a file</td>
+</tr>
+<tr>
+<td>SPC f S</td>
+<td>save all files</td>
+</tr>
+<tr>
+<td>SPC f r</td>
+<td>open a recent file with helm</td>
+</tr>
+<tr>
+<td>SPC f t</td>
+<td>toggle file tree side bar using NeoTree</td>
+</tr>
+<tr>
+<td>SPC f v d</td>
+<td>add a directory variable</td>
+</tr>
+<tr>
+<td>SPC f v f</td>
+<td>add a local variable to the current file</td>
+</tr>
+<tr>
+<td>SPC f v p</td>
+<td>add a local variable to the first line of the current file</td>
+</tr>
+<tr>
+<td>SPC f y</td>
+<td>show and copy current file absolute path in the minibuffer</td>
+</tr>
+</tbody>
+</table>
+<h5 id="14565-emacs-and-spacemacs-files">14.5.6.5 Emacs and Spacemacs files</h5>
+<p>&#x65B9;&#x4FBF;&#x7684;&#x952E;&#x7ED1;&#x5B9A;&#x4F4D;&#x4E8E;&#x524D;&#x7F00; SPC f e &#x4E0B;&#xFF0C;&#x4EE5;&#x4FBF;&#x5728; emacs &#x548C; spacemacs &#x7279;&#x5B9A;&#x6587;&#x4EF6;&#x4E4B;&#x95F4;&#x5FEB;&#x901F;&#x5BFC;&#x822A;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC f e d</td>
+<td>open the spacemacs dotfile (~/.spacemacs)</td>
+</tr>
+<tr>
+<td>SPC f e D</td>
+<td>open ediff buffer of ~/.spacemacs and .spacemacs.template</td>
+</tr>
+<tr>
+<td>SPC f e f</td>
+<td>discover the FAQ using helm</td>
+</tr>
+<tr>
+<td>SPC f e i</td>
+<td>open the all mighty init.el</td>
+</tr>
+<tr>
+<td>SPC f e l</td>
+<td>locate an Emacs library</td>
+</tr>
+<tr>
+<td>SPC f e R</td>
+<td>resync the dotfile with spacemacs</td>
+</tr>
+<tr>
+<td>SPC f e v</td>
+<td>display and copy the spacemacs version</td>
+</tr>
+</tbody>
+</table>
+<h5 id="14566-browsing-files-with-helm">14.5.6.6 Browsing files with Helm</h5>
+<p>&#x5728; vim &#x548C; hybrid &#x98CE;&#x683C;&#x4E2D;&#xFF0C;Spacemacs &#x91CD;&#x6620;&#x5C04; Helm &#x67E5;&#x627E;&#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x5BFC;&#x822A;&#xFF0C;&#x4EE5;&#x4FDD;&#x6301;&#x5728;&#x4E3B;&#x884C;&#x4E0A;&#x3002; </p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C-h</td>
+<td>go up one level (parent directory</td>
+</tr>
+<tr>
+<td>C-H</td>
+<td>describe key (replace C-h)</td>
+</tr>
+<tr>
+<td>C-j</td>
+<td>go to previous candidate</td>
+</tr>
+<tr>
+<td>C-k</td>
+<td>go to next candidate</td>
+</tr>
+<tr>
+<td>C-l</td>
+<td>enter current directory</td>
+</tr>
+</tbody>
+</table>
+<h4 id="1457-ido">14.5.7 Ido</h4>
+<p>Spacemacs &#x5782;&#x76F4;&#x663E;&#x793A; ido minibuffer &#x611F;&#x8C22; <a href="https://github.com/gempesaw/ido-vertical-mode.el" target="_blank">ido-vertical-mode</a>.</p>
+<p>&#x57FA;&#x672C;&#x7684; ido &#x64CD;&#x4F5C;&#x53EF;&#x4EE5;&#x7528; Ctrl &#x952E;&#x5B8C;&#x6210;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C-<return></return></td>
+<td>open a dired buffer</td>
+</tr>
+<tr>
+<td>M-<return></return></td>
+<td>open a dired buffer in terminal</td>
+</tr>
+<tr>
+<td>C-d</td>
+<td>delete selected file (ask for confirmation)</td>
+</tr>
+<tr>
+<td>C-h</td>
+<td>go to parent directory</td>
+</tr>
+<tr>
+<td>C-j</td>
+<td>select next file or directory</td>
+</tr>
+<tr>
+<td>C-k</td>
+<td>select previous file or directory</td>
+</tr>
+<tr>
+<td>C-l</td>
+<td>open the selected file</td>
+</tr>
+<tr>
+<td>C-n</td>
+<td>select next file or directory</td>
+</tr>
+<tr>
+<td>C-o</td>
+<td>open selected file in other window</td>
+</tr>
+<tr>
+<td>C-p</td>
+<td>select previous file or directory</td>
+</tr>
+<tr>
+<td>C-s</td>
+<td>open selected file in a vertically split window</td>
+</tr>
+<tr>
+<td>C-t</td>
+<td>open selected file in a new frame</td>
+</tr>
+<tr>
+<td>C-v</td>
+<td>open selected file in a horizontally split window</td>
+</tr>
+<tr>
+<td>C-S-h</td>
+<td>go to previous directory</td>
+</tr>
+<tr>
+<td>C-S-j or C-S-n</td>
+<td>next history element</td>
+</tr>
+<tr>
+<td>C-S-k or C-S-p</td>
+<td>previous history element</td>
+</tr>
+<tr>
+<td>C-S-l</td>
+<td>go to next directory</td>
+</tr>
+</tbody>
+</table>
+<h4 id="1458-ido-transient-state">14.5.8 Ido transient state</h4>
+<p>Spacemacs &#x4E3A; ido&#x5B9A;&#x4E49;&#x4E86;&#x4E00;&#x4E2A;<a href="http://spacemacs.org/doc/DOCUMENTATION.html#transient-states" target="_blank">&#x4E34;&#x65F6;&#x88C5;&#x6001;</a>&#x3002;</p>
+<p>&#x5728;&#x4E00;&#x4E2A; ido &#x7F13;&#x51B2;&#x533A;&#x4E2D;&#x7528; M-SPC &#x6216; s-M-SPC &#x542F;&#x52A8;&#x4E34;&#x65F6;&#x88C5;&#x6001;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M-SPC or s-M-SPC</td>
+<td>initiate or leave the transient state</td>
+</tr>
+<tr>
+<td>?</td>
+<td>display help</td>
+</tr>
+<tr>
+<td>e</td>
+<td>open dired</td>
+</tr>
+<tr>
+<td>h</td>
+<td>delete backward or parent directory</td>
+</tr>
+<tr>
+<td>j</td>
+<td>next match</td>
+</tr>
+<tr>
+<td>J</td>
+<td>sub directory</td>
+</tr>
+<tr>
+<td>k</td>
+<td>previous match</td>
+</tr>
+<tr>
+<td>K</td>
+<td>parent directory</td>
+</tr>
+<tr>
+<td>l</td>
+<td>select match</td>
+</tr>
+<tr>
+<td>n</td>
+<td>next directory in history</td>
+</tr>
+<tr>
+<td>o</td>
+<td>open in other window</td>
+</tr>
+<tr>
+<td>p</td>
+<td>previous directory in history</td>
+</tr>
+<tr>
+<td>q</td>
+<td>quit transient state</td>
+</tr>
+<tr>
+<td>s</td>
+<td>open in a new horizontal split</td>
+</tr>
+<tr>
+<td>t</td>
+<td>open in other frame</td>
+</tr>
+<tr>
+<td>v</td>
+<td>open in a new vertical split</td>
+</tr>
+</tbody>
+</table>
+<h4 id="1459-neotree-file-tree">14.5.9 NeoTree file tree</h4>
+<p>Spacemacs &#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E2A;&#x5FEB;&#x901F;&#x548C;&#x7B80;&#x5355;&#x7684;&#x65B9;&#x6CD5;&#x6765;&#x5728; <a href="https://github.com/jaypei/emacs-neotree" target="_blank">NeoTree</a> &#x4E2D;&#x5BFC;&#x822A;&#x672A;&#x77E5;&#x7684;&#x9879;&#x76EE;&#x6587;&#x4EF6;&#x6811;&#x3002;</p>
+<p>&#x5207;&#x6362; NeoTree &#x7F13;&#x51B2;&#x533A;&#x6309; SPC f t &#x6216; SPC p t&#xFF08;&#x540E;&#x8005;&#x6253;&#x5F00; NeoTree&#xFF0C;&#x6839;&#x76EE;&#x5F55;&#x8BBE;&#x7F6E;&#x4E3A;&#x5B50;&#x5F39;&#x9879;&#x76EE;&#x6839;&#x76EE;&#x5F55;&#xFF09;&#x3002;</p>
+<p>NeoTree &#x7A97;&#x53E3;&#x59CB;&#x7EC8;&#x6709;&#x6570;&#x5B57; 0&#xFF0C;&#x6240;&#x4EE5;&#x5B83;&#x4E0D;&#x4F1A;&#x79FB;&#x52A8;&#x5176;&#x4ED6;&#x7A97;&#x53E3;&#x7684;&#x5F53;&#x524D;&#x6570;&#x91CF;&#x3002;&#x9009;&#x62E9; NeoTree &#x7A97;&#x53E3;&#x7136;&#x540E;&#x4F7F;&#x7528; spc 0&#x3002;</p>
+<p>&#x652F;&#x6301; VSC &#x96C6;&#x6210;&#xFF0C;&#x6587;&#x4EF6;&#x989C;&#x8272;&#x5C06;&#x6839;&#x636E;&#x5F53;&#x524D;&#x72B6;&#x6001;&#x800C;&#x6539;&#x53D8;&#x3002;&#x7528;&#x9ED8;&#x8BA4;&#x7684; spacemacs-dark &#x4E3B;&#x9898;&#xFF1A;</p>
+<ul>
+<li>&#x7EFF;&#x8272;: &#x65B0;&#x6587;&#x4EF6;</li>
+<li>&#x7D2B;&#x8272;: &#x4FEE;&#x6539;&#x8FC7;&#x7684;&#x6587;&#x4EF6;</li>
+</ul>
+<h5 id="14591-neotree-navigation">14.5.9.1 NeoTree navigation</h5>
+<p>&#x5BFC;&#x822A;&#x4EE5; hjkl &#x952E;&#x4E3A;&#x4E2D;&#x5FC3;&#xFF0C;&#x5E0C;&#x671B;&#x80FD;&#x63D0;&#x4F9B;&#x50CF; <a href="http://ranger.nongnu.org/" target="_blank">ranger</a> &#x4E00;&#x6837;&#x7684;&#x5FEB;&#x901F;&#x5BFC;&#x822A;&#x4F53;&#x9A8C;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>h</td>
+<td>collapse expanded directory or go to parent node</td>
+</tr>
+<tr>
+<td>H</td>
+<td>select previous sibling</td>
+</tr>
+<tr>
+<td>j</td>
+<td>select next file or directory</td>
+</tr>
+<tr>
+<td>J</td>
+<td>select next expanded directory on level down</td>
+</tr>
+<tr>
+<td>k</td>
+<td>select previous file or directory</td>
+</tr>
+<tr>
+<td>K</td>
+<td>select parent directory, when reaching the root change it to parent directory</td>
+</tr>
+<tr>
+<td>l or RET</td>
+<td>expand directory</td>
+</tr>
+<tr>
+<td>L</td>
+<td>select next sibling</td>
+</tr>
+<tr>
+<td>R</td>
+<td>make a directory the root directory</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>&#x6CE8;&#x610F;&#xFF1A;&#x70B9;&#x81EA;&#x52A8;&#x8BBE;&#x7F6E;&#x4E3A;&#x8282;&#x70B9;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x5B57;&#x6BCD;&#xFF0C;&#x4EE5;&#x83B7;&#x5F97;&#x66F4;&#x6D41;&#x7545;&#x7684;&#x4F53;&#x9A8C;&#x3002;</p>
+</blockquote>
+<h5 id="14592-opening-files-with-neotree">14.5.9.2 Opening files with NeoTree</h5>
+<p>&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#x5728;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x6D3B;&#x52A8;&#x7A97;&#x53E3;&#x4E2D;&#x6253;&#x5F00;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x3002;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4F7F;&#x7528;&#x6570;&#x5B57;&#x53C2;&#x6570;&#x6765;&#x9009;&#x62E9;&#x8981;&#x6253;&#x5F00;&#x6587;&#x4EF6;&#x7684;&#x7A97;&#x53E3;&#x53F7;&#xFF0C;&#x4F8B;&#x5982; 2 l &#x6216; 2 RET &#x5C06;&#x6253;&#x5F00;&#x7A97;&#x53E3; 2 &#x4E2D;&#x7684;&#x5F53;&#x524D;&#x6587;&#x4EF6;&#x3002;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; | &#x548C; - &#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>l or RET</td>
+<td>open file in last active window</td>
+</tr>
+<tr>
+<td># l or # RET</td>
+<td>open file in window number #</td>
+</tr>
+<tr>
+<td>&#xA6;</td>
+<td>open file in an vertically split window</td>
+</tr>
+<tr>
+<td>-</td>
+<td>open file in an horizontally split window</td>
+</tr>
+</tbody>
+</table>
+<h5 id="14593-other-neotree-key-bindings">14.5.9.3 Other NeoTree key bindings</h5>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TAB</td>
+<td>toggle stretching of the buffer</td>
+</tr>
+<tr>
+<td>c</td>
+<td>create a node</td>
+</tr>
+<tr>
+<td>d</td>
+<td>delete a node</td>
+</tr>
+<tr>
+<td>gr</td>
+<td>refresh</td>
+</tr>
+<tr>
+<td>s</td>
+<td>toggle showing of hidden files</td>
+</tr>
+<tr>
+<td>q or fd</td>
+<td>hide NeoTree buffer</td>
+</tr>
+<tr>
+<td>r</td>
+<td>rename a node</td>
+</tr>
+<tr>
+<td>?</td>
+<td>show help</td>
+</tr>
+</tbody>
+</table>
+<h5 id="14594-neotree-mode-line">14.5.9.4 NeoTree mode-line</h5>
+<p>mode-line &#x5177;&#x6709;&#x4EE5;&#x4E0B;&#x683C;&#x5F0F; [x/y] d&#xFF08;d&#xFF1A;a&#xFF0C;f&#xFF1A;b&#xFF09;&#x5176;&#x4E2D;&#xFF1A;</p>
+<ul>
+<li>x&#x662F;&#x5F53;&#x524D;&#x6240;&#x9009;&#x6587;&#x4EF6;&#x6216;&#x76EE;&#x5F55;&#x7684;&#x7D22;&#x5F15;</li>
+<li>y&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x4E2D;&#x9879;&#x76EE;&#xFF08;&#x6587;&#x4EF6;&#x548C;&#x76EE;&#x5F55;&#xFF09;&#x7684;&#x603B;&#x6570;</li>
+<li>d&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x7684;&#x540D;&#x79F0;</li>
+<li>a&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x4E2D;&#x7684;&#x76EE;&#x5F55;&#x6570;&#x91CF;</li>
+<li>b&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x4E2D;&#x7684;&#x6587;&#x4EF6;&#x6570;&#x91CF;</li>
+</ul>
+<h5 id="14595-neotree-source-control-integration">14.5.9.5 NeoTree Source Control Integration</h5>
+<p>&#x5982;&#x679C;&#x4F60;&#x60F3; NeoTree &#x663E;&#x793A;&#x6E90;&#x63A7;&#x5236;&#x4FE1;&#x606F;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; neo-vc-integration &#x8BBE;&#x7F6E;&#x3002;&#x5B83;&#x662F;&#x4E00;&#x4E2A;&#x5305;&#x542B;&#x53EF;&#x80FD;&#x503C;&#x7684;&#x5217;&#x8868;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>face</td>
+<td>&#x901A;&#x8FC7;&#x6539;&#x53D8;&#x6587;&#x4EF6;/&#x76EE;&#x5F55;&#x540D;&#x79F0;&#x7684;&#x989C;&#x8272;&#x6765;&#x663E;&#x793A;&#x4FE1;&#x606F;&#x3002;</td>
+</tr>
+<tr>
+<td>char</td>
+<td>&#x5728;&#x6587;&#x4EF6;/&#x76EE;&#x5F55;&#x540D;&#x79F0;&#x7684;&#x5DE6;&#x4FA7;&#x663E;&#x793A;&#x5E26;&#x6709;&#x5B57;&#x7B26;&#x7684;&#x4FE1;&#x606F;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x9ED8;&#x8BA4;&#x662F; nil&#xFF08;&#x4E0D;&#x663E;&#x793A;&#x6E90;&#x63A7;&#x5236;&#x4FE1;&#x606F;&#xFF09;&#xFF0C;&#x8FD9;&#x662F;&#x63A8;&#x8350;&#x7684;&#x3002;</p>
+<p>&#x4F8B;&#x5982;&#xFF0C;</p>
+<pre><code class="lang-lisp">(<span class="hljs-name">setq</span> neo-vc-integration &apos;face)
+</code></pre>
+<blockquote>
+<p>&#x6CE8;&#x610F;&#xFF1A;&#x76EE;&#x524D;&#xFF0C;&#x4E0D;&#x5EFA;&#x8BAE;&#x5C06;&#x5176;&#x8BBE;&#x7F6E;&#x4E3A;&#x9664; nil &#x4E4B;&#x5916;&#x7684;&#x4EFB;&#x4F55;&#x503C;&#x3002;&#x5426;&#x5219;&#xFF0C;&#x6E90;&#x7801;&#x6811;&#x8D8A;&#x5927;&#xFF0C;&#x901F;&#x5EA6;&#x8D8A;&#x6162;&#x3002;&#x6709;&#x5173;&#x66F4;&#x591A;&#x4FE1;&#x606F;&#xFF0C;&#x8BF7;&#x53C2;&#x9605; <a href="https://github.com/jaypei/emacs-neotree/issues/126" target="_blank">https://github.com/jaypei/emacs-neotree/issues/126</a>&#x3002;</p>
+</blockquote>
+<h5 id="14596-neotree-theme">14.5.9.6 NeoTree Theme</h5>
+<p>&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x8BBE;&#x7F6E; neo-theme &#x6765;&#x6539;&#x53D8; NeoTree &#x4E3B;&#x9898;&#x3002;&#x53EF;&#x80FD;&#x7684;&#x503C;&#x662F;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>classic</td>
+<td>&#x4F7F;&#x7528;&#x56FE;&#x6807;&#x663E;&#x793A;&#x9879;&#x76EE; - &#x53EA;&#x9002;&#x7528;&#x4E8E; gui &#x6A21;&#x5F0F;&#x3002;</td>
+</tr>
+<tr>
+<td>ascii</td>
+<td>&#x6700;&#x7B80;&#x5355;&#x7684;&#x6837;&#x5F0F;&#xFF0C;&#x5B83;&#x5C06;&#x4F7F;&#x7528;x&#xFF0C; - &#x6765;&#x663E;&#x793A;&#x6298;&#x53E0;&#x72B6;&#x6001;&#x3002;</td>
+</tr>
+<tr>
+<td>arrow</td>
+<td>&#x4F7F;&#x7528; unicode &#x7BAD;&#x5934;&#x6765;&#x663E;&#x793A;&#x6298;&#x53E0;&#x72B6;&#x6001;&#x3002;</td>
+</tr>
+<tr>
+<td>nerd</td>
+<td>&#x4F7F;&#x7528; NERDTree &#x7F29;&#x8FDB;&#x6A21;&#x5F0F;&#x548C;&#x7BAD;&#x5934;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x9ED8;&#x8BA4;&#x662F; classic&#x3002;
+&#x4F7F;&#x7528; nerd &#xFF0C;&#x5982;&#x679C;&#x4F60;&#x60F3;&#x5728; VIM &#x770B;&#x8D77;&#x6765;&#x6700;&#x50CF; NERDTree&#x3002;&#x4F8B;&#x5982;&#xFF1A;</p>
+<pre><code class="lang-lisp">(<span class="hljs-name">setq</span> neo-theme &apos;nerd)
+</code></pre>
+<h4 id="14510-bookmarks">14.5.10 Bookmarks</h4>
+<p>&#x4E66;&#x7B7E;&#x53EF;&#x4EE5;&#x5728;&#x6587;&#x4EF6;&#x7684;&#x4EFB;&#x4F55;&#x5730;&#x65B9;&#x8BBE;&#x7F6E;&#x3002;&#x4E66;&#x7B7E;&#x662F;&#x6301;&#x4E45;&#x7684;&#x3002;&#x4ED6;&#x4EEC;&#x662F;&#x975E;&#x5E38;&#x6709;&#x7528;&#x7684;&#x8DF3;&#x8F6C;&#x5230;/&#x6253;&#x5F00;&#x4E00;&#x4E2A;&#x5DF2;&#x77E5;&#x7684;&#x9879;&#x76EE;&#x3002;Spacemacs &#x4F7F;&#x7528; helm-bookmarks &#x6765;&#x7BA1;&#x7406;&#x5B83;&#x4EEC;&#x3002;</p>
+<p>&#x6309;&#x4E0B;&#xFF1A;SPC f b&#xFF0C;&#x6253;&#x5F00;&#x5F53;&#x524D;&#x4E66;&#x7B7E;&#x7684; helm &#x7A97;&#x53E3;</p>
+<p>&#x7136;&#x540E;&#x5728; helm-bookmarks &#x7F13;&#x51B2;&#x533A;&#x4E2D;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C-d</td>
+<td>&#x5220;&#x9664;&#x9009;&#x4E2D;&#x7684;&#x4E66;&#x7B7E;</td>
+</tr>
+<tr>
+<td>C-e</td>
+<td>&#x7F16;&#x8F91;&#x9009;&#x5B9A;&#x7684;&#x4E66;&#x7B7E;</td>
+</tr>
+<tr>
+<td>C-f</td>
+<td>&#x5207;&#x6362;&#x6587;&#x4EF6;&#x540D;&#x4F4D;&#x7F6E;</td>
+</tr>
+<tr>
+<td>C-o</td>
+<td>&#x5728;&#x53E6;&#x4E00;&#x4E2A;&#x7A97;&#x53E3;&#x4E2D;&#x6253;&#x5F00;&#x9009;&#x5B9A;&#x7684;&#x4E66;&#x7B7E;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x8981;&#x4FDD;&#x5B58;&#x65B0;&#x7684;&#x4E66;&#x7B7E;&#xFF0C;&#x53EA;&#x9700;&#x8F93;&#x5165;&#x4E66;&#x7B7E;&#x7684;&#x540D;&#x79F0;&#xFF0C;&#x7136;&#x540E;&#x6309;&#x4E0B; RET&#x3002;</p>
+<h4 id="14511-docview-mode">14.5.11 DocView mode</h4>
+<p>doc-view-mode &#x662F;&#x4E00;&#x4E2A;&#x5185;&#x7F6E;&#x7684;&#x4E3B;&#x8981;&#x6A21;&#x5F0F;&#x6765;&#x67E5;&#x770B; DVI&#xFF0C;PostScript (PS), PDF&#xFF0C;OpenDocument &#x548C; Microsoft Office &#x6587;&#x6863;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/</td>
+<td>search forward</td>
+</tr>
+<tr>
+<td>?</td>
+<td>search backward</td>
+</tr>
+<tr>
+<td>+</td>
+<td>enlarge</td>
+</tr>
+<tr>
+<td>-</td>
+<td>shrink</td>
+</tr>
+<tr>
+<td>gg</td>
+<td>go to first page</td>
+</tr>
+<tr>
+<td>G</td>
+<td>go to last page</td>
+</tr>
+<tr>
+<td>gt</td>
+<td>go to page number</td>
+</tr>
+<tr>
+<td>h</td>
+<td>previous page</td>
+</tr>
+<tr>
+<td>H</td>
+<td>adjust to height</td>
+</tr>
+<tr>
+<td>j</td>
+<td>next line</td>
+</tr>
+<tr>
+<td>k</td>
+<td>previous line</td>
+</tr>
+<tr>
+<td>K</td>
+<td>kill proc and buffer</td>
+</tr>
+<tr>
+<td>l</td>
+<td>next page</td>
+</tr>
+<tr>
+<td>n</td>
+<td>go to next search occurrence</td>
+</tr>
+<tr>
+<td>N</td>
+<td>go to previous search occurrence</td>
+</tr>
+<tr>
+<td>P</td>
+<td>fit page to window</td>
+</tr>
+<tr>
+<td>r</td>
+<td>revert</td>
+</tr>
+<tr>
+<td>W</td>
+<td>adjust to width</td>
+</tr>
+<tr>
+<td>C-d</td>
+<td>scroll down</td>
+</tr>
+<tr>
+<td>C-k</td>
+<td>kill proc</td>
+</tr>
+<tr>
+<td>C-u</td>
+<td>scroll up</td>
+</tr>
+<tr>
+<td>C-c C-c</td>
+<td>toggle display text and image display</td>
+</tr>
+<tr>
+<td>C-c C-t</td>
+<td>open new buffer with doc&apos;s text contents</td>
+</tr>
+</tbody>
+</table>
+<h3 id="146-auto-saving">14.6 Auto-saving</h3>
+<h4 id="1461-frequency-of-auto-saving">14.6.1 Frequency of auto-saving</h4>
+<p>&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6BCF;300&#x4E2A;&#x5B57;&#x7B26;&#x548C;&#x6BCF;30&#x79D2;&#x7684;&#x7A7A;&#x95F2;&#x65F6;&#x95F4;&#x6267;&#x884C;&#x6587;&#x4EF6;&#x81EA;&#x52A8;&#x4FDD;&#x5B58;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5206;&#x522B;&#x5C06;&#x53D8;&#x91CF; auto-save-inteval &#x548C; auto-save-timeout &#x8BBE;&#x7F6E;&#x4E3A;&#x65B0;&#x503C;&#x6765;&#x66F4;&#x6539;&#x8FD9;&#x4E9B;&#x6587;&#x4EF6;&#x3002;</p>
+<h4 id="1462-location-of-auto-saved-files">14.6.2 Location of auto-saved files</h4>
+<p>&#x4FEE;&#x6539;&#x6587;&#x4EF6;&#x7684;&#x81EA;&#x52A8;&#x4FDD;&#x5B58;&#x53EF;&#x4EE5;&#x5728;&#x539F;&#x59CB;&#x6587;&#x4EF6;&#x672C;&#x8EAB;&#x6216;&#x7F13;&#x5B58;&#x76EE;&#x5F55;&#x4E2D;&#x539F;&#x4F4D;&#x6267;&#x884C;&#xFF08;&#x5728;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x539F;&#x59CB;&#x6587;&#x4EF6;&#x5C06;&#x4FDD;&#x6301;&#x672A;&#x4FDD;&#x5B58;&#x72B6;&#x6001;&#xFF09;&#x3002;&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;Spacemacs &#x81EA;&#x52A8;&#x5C06;&#x6587;&#x4EF6;&#x4FDD;&#x5B58;&#x5728;&#x7F13;&#x5B58;&#x76EE;&#x5F55;&#x4E2D;&#x3002;</p>
+<p>&#x4FEE;&#x6539;&#x4F4D;&#x7F6E;&#x5C06;&#x53D8;&#x91CF; dotspacemacs-auto-save-file-location &#x8BBE;&#x7F6E;&#x4E3A; original &#x6216; cache&#x3002;</p>
+<p>&#x672C;&#x5730;&#x6587;&#x4EF6;&#x5C06;&#x81EA;&#x52A8;&#x4FDD;&#x5B58;&#x5728;&#x7F13;&#x5B58;&#x76EE;&#x5F55;&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x540D;&#x4E3A;&#x7AD9;&#x70B9;&#x7684;&#x5B50;&#x76EE;&#x5F55;&#x4E2D;&#xFF0C;&#x800C;&#x8FDC;&#x7A0B;&#x6587;&#x4EF6;&#xFF08;&#x5373;&#x901A;&#x8FC7; TRAMP &#x7F16;&#x8F91;&#x7684;&#x6587;&#x4EF6;&#xFF09;&#x5C06;&#x81EA;&#x52A8;&#x4FDD;&#x5B58;&#x5728;&#x540D;&#x4E3A; dist &#x7684;&#x5B50;&#x76EE;&#x5F55;&#x4E2D;&#x3002;</p>
+<h4 id="1463-disable-auto-save">14.6.3 Disable auto-save</h4>
+<p>&#x7981;&#x7528;&#x81EA;&#x52A8;&#x4FDD;&#x5B58;&#x5C06;&#x53D8;&#x91CF; dotspacemacs-auto-save-file-location &#x8BBE;&#x7F6E;&#x4E3A;nil&#x3002;</p>
+<p>&#x60A8;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8C03;&#x7528;&#x547D;&#x4EE4; auto-save-mode &#x6765;&#x5207;&#x6362;&#x81EA;&#x52A8;&#x4FDD;&#x5B58;&#x5728;&#x7F13;&#x51B2;&#x533A;&#x4E2D;&#x3002;</p>
+<h3 id="147-searching">14.7 Searching</h3>
+<h4 id="1471-with-an-external-tool">14.7.1 With an external tool</h4>
+<p>Spacemacs &#x53EF;&#x4EE5;&#x4E0E;&#x4E0D;&#x540C;&#x7684;&#x641C;&#x7D22;&#x5DE5;&#x5177;&#x8FDE;&#x63A5;&#xFF0C;&#x5982;&#xFF1A;</p>
+<ul>
+<li>ack</li>
+<li>grep</li>
+<li><a href="https://github.com/ggreer/the_silver_searcher" target="_blank">ag</a></li>
+<li><a href="https://github.com/monochromegane/the_platinum_searcher" target="_blank">pt</a></li>
+</ul>
+<p>Spacemacs &#x4E2D;&#x7684;&#x641C;&#x7D22;&#x547D;&#x4EE4;&#x5728; SPC s &#x524D;&#x7F00;&#x4E0B;&#x7EC4;&#x7EC7;&#xFF0C;&#x4E0B;&#x4E00;&#x4E2A;&#x952E;&#x662F;&#x8981;&#x4F7F;&#x7528;&#x7684;&#x5DE5;&#x5177;&#xFF0C;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x952E;&#x662F;&#x8303;&#x56F4;&#x3002;&#x6BD4;&#x5982; SPC s a b &#x4F1A;&#x4F7F;&#x7528; ag &#x5728;&#x6240;&#x6709;&#x6253;&#x5F00;&#x7684;&#x7F13;&#x51B2;&#x533A;&#x4E2D;&#x641C;&#x7D22;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x952E;&#xFF08;&#x786E;&#x5B9A;&#x8303;&#x56F4;&#xFF09;&#x662F;&#x5927;&#x5199;&#x7684;&#xFF0C;&#x90A3;&#x4E48;&#x70B9;&#x4E0B;&#x7684;&#x5F53;&#x524D;&#x533A;&#x57DF;&#x6216;&#x7B26;&#x53F7;&#x5C06;&#x88AB;&#x7528;&#x4F5C;&#x641C;&#x7D22;&#x7684;&#x9ED8;&#x8BA4;&#x8F93;&#x5165;&#x3002;&#x4F8B;&#x5982; SPC s a B &#x5C06;&#x5728;&#x7B26;&#x53F7;&#x4E0B;&#x641C;&#x7D22;&#x7B26;&#x53F7;&#xFF08;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x6D3B;&#x52A8;&#x533A;&#x57DF;&#xFF09;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x7701;&#x7565;&#x4E86;&#x5DE5;&#x5177;&#x952E;&#xFF0C;&#x5219;&#x4F1A;&#x81EA;&#x52A8;&#x9009;&#x62E9;&#x9ED8;&#x8BA4;&#x5DE5;&#x5177;&#x8FDB;&#x884C;&#x641C;&#x7D22;&#x3002;&#x8FD9;&#x4E2A;&#x5DE5;&#x5177;&#x5BF9;&#x5E94;&#x4E8E;&#x5728;&#x5217;&#x8868; dotspacemacs-search-tools &#x7684;&#x7CFB;&#x7EDF;&#x4E0A;&#x627E;&#x5230;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x5DE5;&#x5177;&#xFF0C;&#x9ED8;&#x8BA4;&#x987A;&#x5E8F;&#x662F; ag&#xFF0C;pt&#xFF0C;ack&#xFF0C;&#x7136;&#x540E;&#x662F; grep &#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x5982;&#x679C;&#x5728;&#x7CFB;&#x7EDF;&#x4E2D;&#x6CA1;&#x6709;&#x627E; &#x5230; ag&#xFF0C;spc &#x5C06;&#x4F7F;&#x7528; pt &#x5728;&#x6253;&#x5F00;&#x7684;&#x7F13;&#x51B2;&#x533A;&#x4E2D;&#x641C;&#x7D22;&#x3002;</p>
+<p>&#x5DE5;&#x5177;&#x952E;&#x662F;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Key</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ag</td>
+<td>a</td>
+</tr>
+<tr>
+<td>grep</td>
+<td>g</td>
+</tr>
+<tr>
+<td>ack</td>
+<td>k</td>
+</tr>
+<tr>
+<td>pt</td>
+<td>t</td>
+</tr>
+</tbody>
+</table>
+<p>&#x53EF;&#x7528;&#x7684;&#x8303;&#x56F4;&#x548C;&#x76F8;&#x5E94;&#x7684;&#x952E;&#x662F;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Scope</th>
+<th>Key</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x6253;&#x5F00;&#x7F13;&#x51B2;&#x533A;</td>
+<td>b</td>
+</tr>
+<tr>
+<td>&#x6587;&#x4EF6;&#x5728;&#x7ED9;&#x5B9A;&#x7684;&#x76EE;&#x5F55;&#x4E2D;</td>
+<td>f</td>
+</tr>
+<tr>
+<td>&#x5F53;&#x524D;&#x7684;&#x9879;&#x76EE;</td>
+<td>p</td>
+</tr>
+</tbody>
+</table>
+<p>&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x53CC;&#x51FB;&#x5E8F;&#x5217;&#x7684;&#x7B2C;&#x4E8C;&#x4E2A;&#x952E;&#x5728;&#x5F53;&#x524D;&#x6587;&#x4EF6;&#x4E2D;&#x8FDB;&#x884C;&#x641C;&#x7D22;&#xFF0C;&#x4F8B;&#x5982; SPC s a a &#x5C06;&#x4F7F;&#x7528; ag &#x5728;&#x5F53;&#x524D;&#x6587;&#x4EF6;&#x4E2D;&#x641C;&#x7D22;&#x3002;</p>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>ag &#x548C; pt &#x88AB;&#x4F18;&#x5316;&#x7528;&#x4E8E;&#x6E90;&#x4EE3;&#x7801;&#x63A7;&#x5236;&#x5E93;&#x4E2D;&#xFF0C;&#x4F46;&#x662F;&#x5B83;&#x4EEC;&#x4E5F;&#x53EF;&#x4EE5;&#x5728;&#x4EFB;&#x610F;&#x76EE;&#x5F55;&#x4E2D;&#x4F7F;&#x7528;&#x3002;</li>
+<li>&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5728; helm &#x7F13;&#x51B2;&#x533A;&#x4E2D;&#x6807;&#x8BB0;&#x5B83;&#x4EEC;&#x6765;&#x4E00;&#x6B21;&#x641C;&#x7D22;&#x591A;&#x4E2A;&#x76EE;&#x5F55;&#x3002;</li>
+</ul>
+<p>&#x5F53;&#x5FC3;&#x5982;&#x679C;&#x4F60;&#x4F7F;&#x7528; pt&#xFF0C;<a href="https://core.tcl.tk/tcllib/doc/trunk/embedded/www/tcllib/files/apps/pt.html" target="_blank">TCL parser tools</a> &#x4E5F;&#x4F1A;&#x5B89;&#x88C5;&#x4E00;&#x4E2A;&#x540D;&#x4E3A; pt &#x7684;&#x547D;&#x4EE4;&#x884C;&#x5DE5;&#x5177;&#x3002;</p>
+<h5 id="14711-useful-key-bindings">14.7.1.1 Useful key bindings</h5>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F3</td>
+<td>&#x5728; helm &#x6216; ivy &#x7F13;&#x51B2;&#x533A;&#x4E2D;&#xFF0C;&#x5C06;&#x7ED3;&#x679C;&#x4FDD;&#x5B58;&#x5230;&#x5E38;&#x89C4;&#x7F13;&#x51B2;&#x533A;</td>
+</tr>
+<tr>
+<td>SPC r l</td>
+<td>&#x6062;&#x590D;&#x4E0A;&#x4E00;&#x4E2A;&#x5B8C;&#x6210;&#x7F13;&#x51B2;&#x533A;</td>
+</tr>
+<tr>
+<td>SPC r s or SPC s l</td>
+<td>&#x6062;&#x590D;&#x641C;&#x7D22;&#x7F13;&#x51B2;&#x533A;&#xFF08;&#x5B8C;&#x6210;&#x6216;&#x8F6C;&#x6362;&#x7684;&#x641C;&#x7D22;&#x7F13;&#x51B2;&#x533A;&#xFF09;</td>
+</tr>
+<tr>
+<td>SPC s `</td>
+<td>&#x56DE;&#x5230;&#x4EE5;&#x524D;&#x7528; helm-ag &#x8FBE;&#x5230;&#x7684;&#x5730;&#x65B9;</td>
+</tr>
+<tr>
+<td>Prefix argument</td>
+<td>&#x5C06;&#x8981;&#x6C42;&#x6587;&#x4EF6;&#x6269;&#x5C55;&#x540D;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x5F53;&#x7ED3;&#x679C;&#x4FDD;&#x5B58;&#x5728; f3 &#x7684;&#x5E38;&#x89C4;&#x7F13;&#x51B2;&#x533A;&#x4E2D;&#x65F6;&#xFF0C;&#x8BE5;&#x7F13;&#x51B2;&#x533A;&#x652F;&#x6301;&#x901A;&#x8FC7;&#x4E0E; Spacemacs &#x7684;&#x4E0B;&#x4E00;&#x4E2A;&#x9519;&#x8BEF;&#x548C;&#x5148;&#x524D;&#x9519;&#x8BEF;&#x7ED1;&#x5B9A;&#xFF08; SPC e n &#x548C; SPC e p&#xFF09;&#x4EE5;&#x53CA;&#x9519;&#x8BEF;&#x77AC;&#x6001;&#xFF08;SPC e&#xFF09;&#x8FDB;&#x884C;&#x6D4F;&#x89C8;&#x3002;</p>
+<h5 id="14712-searching-in-current-file">14.7.1.2 Searching in current file</h5>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC s s</td>
+<td>&#x7528;&#x7B2C;&#x4E00;&#x4E2A;&#x627E;&#x5230;&#x7684;&#x5DE5;&#x5177;&#x641C;&#x7D22;</td>
+</tr>
+<tr>
+<td>SPC s S</td>
+<td>&#x7528;&#x9ED8;&#x8BA4;&#x8F93;&#x5165;&#x641C;&#x7D22;&#x7B2C;&#x4E00;&#x4E2A;&#x627E;&#x5230;&#x7684;&#x5DE5;&#x5177;</td>
+</tr>
+<tr>
+<td>SPC s a a</td>
+<td>ag</td>
+</tr>
+<tr>
+<td>SPC s a A</td>
+<td>ag with default input</td>
+</tr>
+<tr>
+<td>SPC s g g</td>
+<td>grep</td>
+</tr>
+<tr>
+<td>SPC s g G</td>
+<td>grep with default input</td>
+</tr>
+</tbody>
+</table>
+<h5 id="14713-searching-in-all-open-buffers-visiting-files">14.7.1.3 Searching in all open buffers visiting files</h5>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC s b</td>
+<td>&#x7528;&#x7B2C;&#x4E00;&#x4E2A;&#x627E;&#x5230;&#x7684;&#x5DE5;&#x5177;&#x641C;&#x7D22;</td>
+</tr>
+<tr>
+<td>SPC s B</td>
+<td>&#x7528;&#x9ED8;&#x8BA4;&#x8F93;&#x5165;&#x641C;&#x7D22;&#x7B2C;&#x4E00;&#x4E2A;&#x627E;&#x5230;&#x7684;&#x5DE5;&#x5177;</td>
+</tr>
+<tr>
+<td>SPC s a b</td>
+<td>ag</td>
+</tr>
+<tr>
+<td>SPC s a B</td>
+<td>ag with default text</td>
+</tr>
+<tr>
+<td>SPC s g b</td>
+<td>grep</td>
+</tr>
+<tr>
+<td>SPC s g B</td>
+<td>grep with default text</td>
+</tr>
+<tr>
+<td>SPC s k b</td>
+<td>ack</td>
+</tr>
+<tr>
+<td>SPC s k B</td>
+<td>ack with default text</td>
+</tr>
+<tr>
+<td>SPC s t b</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>SPC s t B</td>
+<td>pt with default text</td>
+</tr>
+</tbody>
+</table>
+<h5 id="14714-searching-in-files-in-an-arbitrary-directory">14.7.1.4 Searching in files in an arbitrary directory</h5>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC s f</td>
+<td>&#x7528;&#x7B2C;&#x4E00;&#x4E2A;&#x627E;&#x5230;&#x7684;&#x5DE5;&#x5177;&#x641C;&#x7D22;</td>
+</tr>
+<tr>
+<td>SPC s F</td>
+<td>&#x7528;&#x9ED8;&#x8BA4;&#x8F93;&#x5165;&#x641C;&#x7D22;&#x7B2C;&#x4E00;&#x4E2A;&#x627E;&#x5230;&#x7684;&#x5DE5;&#x5177;</td>
+</tr>
+<tr>
+<td>SPC s a f</td>
+<td>ag</td>
+</tr>
+<tr>
+<td>SPC s a F</td>
+<td>ag with default text</td>
+</tr>
+<tr>
+<td>SPC s g f</td>
+<td>grep</td>
+</tr>
+<tr>
+<td>SPC s g F</td>
+<td>grep with default text</td>
+</tr>
+<tr>
+<td>SPC s k f</td>
+<td>ack</td>
+</tr>
+<tr>
+<td>SPC s k F</td>
+<td>ack with default text</td>
+</tr>
+<tr>
+<td>SPC s t f</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>SPC s t F</td>
+<td>pt with default text</td>
+</tr>
+</tbody>
+</table>
+<h5 id="14715-searching-in-a-project">14.7.1.5 Searching in a project</h5>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC / or SPC s p</td>
+<td>&#x7528;&#x7B2C;&#x4E00;&#x4E2A;&#x627E;&#x5230;&#x7684;&#x5DE5;&#x5177;&#x641C;&#x7D22;</td>
+</tr>
+<tr>
+<td>SPC * or SPC s P</td>
+<td>&#x7528;&#x9ED8;&#x8BA4;&#x8F93;&#x5165;&#x641C;&#x7D22;&#x7B2C;&#x4E00;&#x4E2A;&#x627E;&#x5230;&#x7684;&#x5DE5;&#x5177;</td>
+</tr>
+<tr>
+<td>SPC s a p</td>
+<td>ag</td>
+</tr>
+<tr>
+<td>SPC s a P</td>
+<td>ag with default text</td>
+</tr>
+<tr>
+<td>SPC s g p</td>
+<td>grep with default text</td>
+</tr>
+<tr>
+<td>SPC s k p</td>
+<td>ack</td>
+</tr>
+<tr>
+<td>SPC s k P</td>
+<td>ack with default text</td>
+</tr>
+<tr>
+<td>SPC s t p</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>SPC s t P</td>
+<td>pt with default text</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>&#x63D0;&#x793A;&#xFF1A;&#x4E5F;&#x53EF;&#x4EE5;&#x5728;&#x9879;&#x76EE;&#x4E2D;&#x641C;&#x7D22;&#xFF0C;&#x800C;&#x65E0;&#x9700;&#x4E8B;&#x5148;&#x6253;&#x5F00;&#x6587;&#x4EF6;&#x3002;&#x5728;&#x4E00;&#x4E2A;&#x7ED9;&#x5B9A;&#x7684;&#x9879;&#x76EE;&#x4E2D;&#x4F7F;&#x7528; SPC p p &#x7136;&#x540E; C-s &#x6765;&#x76F4;&#x63A5;&#x641C;&#x7D22;&#x5B83;&#xFF0C;&#x5C31;&#x50CF;&#x4F7F;&#x7528; SPC s p &#x4E00;&#x6837;&#x3002;</p>
+</blockquote>
+<h5 id="14716-searching-the-web">14.7.1.6 Searching the web</h5>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC s w g</td>
+<td>&#x5728; emacs &#x4E2D;&#x83B7;&#x5F97;&#x8C37;&#x6B4C;&#x5EFA;&#x8BAE;&#x3002;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x6253;&#x5F00;google&#x7ED3;&#x679C;&#x3002;</td>
+</tr>
+<tr>
+<td>SPC s w w</td>
+<td>&#x5728; emacs &#x4E2D;&#x83B7;&#x5F97;&#x7EF4;&#x57FA;&#x767E;&#x79D1;&#x5EFA;&#x8BAE;&#x3002;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x6253;&#x5F00;&#x7EF4;&#x57FA;&#x767E;&#x79D1;&#x9875;&#x9762;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+<h4 id="1472-persistent-highlighting">14.7.2 Persistent highlighting</h4>
+<p>Spacemacs &#x4F7F;&#x7528; evil-search-highlight-persist &#x6765;&#x4FDD;&#x6301;&#x641C;&#x7D22;&#x5230;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x76F4;&#x5230;&#x4E0B;&#x4E00;&#x6B21;&#x641C;&#x7D22;&#x3002;&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x6309; SPC s c &#x6216;&#x6267;&#x884C; ex &#x547D;&#x4EE4;&#x6765;&#x6E05;&#x9664;&#x7A81;&#x51FA;&#x663E;&#x793A;&#xFF1A;noh&#x3002;</p>
+<h4 id="1473-highlight-current-symbol">14.7.3 Highlight current symbol</h4>
+<p>Spacemacs &#x652F;&#x6301;&#x6309;&#x9700;&#x9AD8;&#x4EAE;&#x663E;&#x793A;&#x5F53;&#x524D;&#x7B26;&#x53F7;&#xFF08;&#x7531;<a href="https://github.com/emacsmirror/auto-highlight-symbol" target="_blank"> auto-highlight-symbol </a> mode &#x63D0;&#x4F9B;&#xFF09;&#xFF0C;&#x5E76;&#x6DFB;&#x52A0;&#x77AC;&#x6001;&#x4EE5;&#x8F7B;&#x677E;&#x5BFC;&#x822A;&#x5E76;&#x91CD;&#x547D;&#x540D;&#x6B64;&#x7B26;&#x53F7;&#x3002;</p>
+<p>&#x4E5F;&#x53EF;&#x4EE5;&#x5C06;&#x98DE;&#x884C;&#x4E2D;&#x7684;&#x5BFC;&#x822A;&#x8303;&#x56F4;&#x66F4;&#x6539;&#x4E3A;&#xFF1A;</p>
+<ul>
+<li>buffer</li>
+<li>function</li>
+<li>visible area</li>
+</ul>
+<p>&#x5728;&#x70B9;&#x6309; SPC s h &#x4E0B;&#x542F;&#x52A8;&#x5F53;&#x524D;&#x7B26;&#x53F7;&#x7684;&#x7A81;&#x51FA;&#x663E;&#x793A;&#x3002;</p>
+<p>&#x9AD8;&#x4EAE;&#x7684;&#x7B26;&#x53F7;&#x4E4B;&#x95F4;&#x7684;&#x5BFC;&#x822A;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x5B8C;&#x6210;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>*</td>
+<td>&#x5728;&#x5F53;&#x524D;&#x7B26;&#x53F7;&#x4E0A;&#x542F;&#x52A8;&#x5BFC;&#x822A;&#x6682;&#x6001;&#xFF0C;&#x5E76;&#x5411;&#x524D;&#x8DF3;&#x8F6C;</td>
+</tr>
+<tr>
+<td>#</td>
+<td>&#x5728;&#x5F53;&#x524D;&#x7B26;&#x53F7;&#x4E0A;&#x542F;&#x52A8;&#x5BFC;&#x822A;&#x6682;&#x6001;&#x5E76;&#x5411;&#x540E;&#x8DF3;&#x8F6C;</td>
+</tr>
+<tr>
+<td>SPC s e</td>
+<td>&#x7F16;&#x8F91;&#x6240;&#x6709;&#x51FA;&#x73B0;&#x7684;&#x5F53;&#x524D;&#x7B26;&#x53F7;&#xFF08;/&#xFF09;</td>
+</tr>
+<tr>
+<td>SPC s h</td>
+<td>&#x9AD8;&#x4EAE;&#x663E;&#x793A;&#x5F53;&#x524D;&#x7B26;&#x53F7;&#x53CA;&#x5176;&#x5728;&#x5F53;&#x524D;&#x8303;&#x56F4;&#x5185;&#x7684;&#x6240;&#x6709;&#x51FA;&#x73B0;</td>
+</tr>
+<tr>
+<td>SPC s H</td>
+<td>&#x8F6C;&#x5230;&#x4E0A;&#x6B21;&#x641C;&#x7D22;&#x5230;&#x7684;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x7A81;&#x51FA;&#x663E;&#x793A;&#x7684;&#x7B26;&#x53F7;</td>
+</tr>
+<tr>
+<td>SPC t h a</td>
+<td>&#x5728; ahs-idle-interval &#x79D2;&#x540E;&#x5207;&#x6362;&#x70B9;&#x4E0B;&#x7684;&#x7B26;&#x53F7;&#x81EA;&#x52A8;&#x9AD8;&#x4EAE;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x5728;&apos;spacemacs&apos;&#x4E2D;&#x9AD8;&#x4EAE;&#x663E;&#x793A;&#x7B26;&#x53F7;&#x77AC;&#x6001;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>e</td>
+<td>edit occurrences (*)</td>
+</tr>
+<tr>
+<td>n</td>
+<td>go to next occurrence</td>
+</tr>
+<tr>
+<td>N</td>
+<td>go to previous occurrence</td>
+</tr>
+<tr>
+<td>d</td>
+<td>go to next definition occurrence</td>
+</tr>
+<tr>
+<td>D</td>
+<td>go to previous definition occurrence</td>
+</tr>
+<tr>
+<td>r</td>
+<td>change range (function, display area, whole buffer)</td>
+</tr>
+<tr>
+<td>R</td>
+<td>go to home occurrence (reset position to starting occurrence)</td>
+</tr>
+<tr>
+<td>Any other key</td>
+<td>leave the navigation transient state</td>
+</tr>
+</tbody>
+</table>
+<p>&#xFF08;*&#xFF09;&#x4F7F;&#x7528; <a href="https://github.com/tsdh/iedit" target="_blank">iedit</a> &#x6216; auto-highlight-symbol &#x7684;&#x9ED8;&#x8BA4;&#x5B9E;&#x73B0;</p>
+<p>minibuffer &#x4E2D;&#x7684;&#x77AC;&#x6001;&#x6587;&#x672C;&#x663E;&#x793A;&#x5982;&#x4E0B;&#x4FE1;&#x606F;&#xFF1A;</p>
+<pre><code>&lt;M&gt; [6/11]* press (n/N) to navigate, (e) to edit, (r) to change range or (R)
+for reset
+</code></pre><p>&#x5176;&#x4E2D;<m> [x/y] *&#x662F;&#xFF1A;</m></p>
+<ul>
+<li>M&#xFF1A;&#x5F53;&#x524D;&#x7684;&#x8303;&#x56F4;&#x6A21;&#x5F0F;</li>
+<li><b\>&#xFF1A;&#x6574;&#x4E2A;&#x7F13;&#x51B2;&#x533A;&#x8303;&#x56F4;</b\></li>
+<li><d>&#xFF1A;&#x5F53;&#x524D;&#x7684;&#x663E;&#x793A;&#x8303;&#x56F4;</d></li>
+<li><f>&#xFF1A;&#x5F53;&#x524D;&#x7684;&#x529F;&#x80FD;&#x8303;&#x56F4;</f></li>
+<li>x&#xFF1A;&#x5F53;&#x524D;&#x9AD8;&#x4EAE;&#x663E;&#x793A;&#x7684;&#x4E8B;&#x4EF6;&#x7684;&#x7D22;&#x5F15;</li>
+<li>y&#xFF1A;&#x53D1;&#x751F;&#x7684;&#x603B;&#x6B21;&#x6570;</li>
+<li>*&#xFF1A;&#x5982;&#x679C;&#x81F3;&#x5C11;&#x6709;&#x4E00;&#x4E2A;&#x5F53;&#x524D;&#x4E0D;&#x53EF;&#x89C1;&#x7684;&#x60C5;&#x51B5;&#x51FA;&#x73B0;&#x3002;</li>
+</ul>
+<h4 id="1474-visual-star">14.7.4 Visual Star</h4>
+<p>&#x7528; <a href="https://github.com/bling/evil-visualstar" target="_blank">evil-visualstar</a> &#x4F60;&#x53EF;&#x4EE5;&#x641C;&#x7D22;&#x4E0B;&#x4E00;&#x4E2A;&#x51FA;&#x73B0;&#x7684;&#x5F53;&#x524D;&#x9009;&#x62E9;&#x3002;</p>
+<p>&#x5B83;&#x4E0E; <a href="http://spacemacs.org/doc/DOCUMENTATION.html#region-selection" target="_blank">expand-region</a> &#x7ED1;&#x5B9A;&#x76F8;&#x7ED3;&#x5408;&#x975E;&#x5E38;&#x6709;&#x7528;&#x3002;</p>
+<blockquote>
+<p>&#x6CE8;&#x610F;&#xFF1A;&#x5982;&#x679C;&#x5F53;&#x524D;&#x72B6;&#x6001;&#x4E0D;&#x662F; visual &#x72B6;&#x6001;&#xFF0C;&#x90A3;&#x4E48;&#x6309; * &#x4F7F;&#x7528;&#x81EA;&#x52A8;&#x9AD8;&#x4EAE;&#x7B26;&#x53F7;&#x53CA;&#x5176;&#x77AC;&#x6001;&#x72B6;&#x6001;&#x3002;</p>
+</blockquote>
+<h4 id="1475&#x6309;&#x8BED;&#x4E49;&#x5217;&#x51FA;&#x7B26;&#x53F7;">14.7.5&#x6309;&#x8BED;&#x4E49;&#x5217;&#x51FA;&#x7B26;&#x53F7;</h4>
+<p>&#x4F7F;&#x7528; helm &#x7684; helm-semantic-or-imenu &#x547D;&#x4EE4;&#x53EF;&#x4EE5;&#x5728;&#x7F13;&#x51B2;&#x533A;&#x4E2D;&#x7684;&#x7B26;&#x53F7;&#x4E4B;&#x95F4;&#x5FEB;&#x901F;&#x5BFC;&#x822A;&#x3002; </p>
+<p>&#x5217;&#x51FA;&#x4E00;&#x4E2A;&#x7F13;&#x51B2;&#x533A;&#x7684;&#x6240;&#x6709;&#x7B26;&#x53F7;&#x6309;&#xFF1A;SPC s j</p>
+<h4 id="1476-helm-swoop">14.7.6 Helm-swoop</h4>
+<p>&#x8FD9;&#x4E0E; moccur &#x975E;&#x5E38;&#x76F8;&#x4F3C;&#xFF0C;&#x5B83;&#x663E;&#x793A;&#x4E86;&#x4E00;&#x4E2A; helm &#x7F13;&#x51B2;&#x533A;&#xFF0C;&#x5176;&#x4E2D;&#x5305;&#x542B;&#x6240;&#x6709;&#x51FA;&#x73B0;&#x7684;&#x5355;&#x8BCD;&#x3002;&#x60A8;&#x53EF;&#x4EE5;&#x5B9E;&#x65F6;&#x66F4;&#x6539;&#x641C;&#x7D22;&#x67E5;&#x8BE2;&#x5E76;&#x8F7B;&#x677E;&#x5730;&#x5728;&#x5B83;&#x4EEC;&#x4E4B;&#x95F4;&#x5BFC;&#x822A;&#x3002;</p>
+<p>&#x60A8;&#x751A;&#x81F3;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x5728; helm &#x7F13;&#x51B2;&#x533A;&#x4E2D;&#x7F16;&#x8F91;&#x4E8B;&#x4EF6;&#xFF0C;&#x5E76;&#x5C06;&#x4FEE;&#x6539;&#x5E94;&#x7528;&#x5230;&#x7F13;&#x51B2;&#x533A;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC s s</td>
+<td>execute helm-swoop</td>
+</tr>
+<tr>
+<td>SPC s S</td>
+<td>execute helm-multi-swoop</td>
+</tr>
+<tr>
+<td>SPC s C-s</td>
+<td>execute helm-multi-swoop-all</td>
+</tr>
+</tbody>
+</table>
+<h3 id="148&#x7F16;&#x8F91;">14.8&#x7F16;&#x8F91;</h3>
+<h4 id="1481&#x7C98;&#x8D34;&#x6587;&#x672C;">14.8.1&#x7C98;&#x8D34;&#x6587;&#x672C;</h4>
+<h5 id="14811&#x7C98;&#x8D34;&#x77AC;&#x6001;">14.8.1.1&#x7C98;&#x8D34;&#x77AC;&#x6001;</h5>
+<p>&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5C06;&#x53D8;&#x91CF; dotspacemacs-enable-paste-transient-state &#x8BBE;&#x7F6E;&#x4E3A; t &#x6765;&#x542F;&#x7528;&#x7C98;&#x8D34;&#x77AC;&#x53D8;&#x72B6;&#x6001;&#x3002;&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#x5B83;&#x88AB;&#x7981;&#x7528;&#x3002;</p>
+<p>&#x5F53;&#x542F;&#x7528;&#x6682;&#x6001;&#x65F6;&#xFF0C;&#x518D;&#x6B21;&#x6309;&#x4E0B; p &#x5C06;&#x4F1A;&#x66FF;&#x6362;&#x7C98;&#x8D34;&#x7684;&#x6587;&#x5B57;&#x4E0E;&#x5148;&#x524D;&#x5728; kill (ring) &#x4E0A;&#x88AB; yanked&#xFF08;copied&#xFF09;&#x7684;&#x6587;&#x5B57;&#x3002;</p>
+<p>&#x4F8B;&#x5982;&#xFF0C;&#x5982;&#x679C;&#x590D;&#x5236; foo &#x548C; bar&#xFF0C;&#x7136;&#x540E;&#x6309; p &#x5C06;&#x7C98;&#x8D34;&#x6587;&#x672C;&#x680F;&#xFF0C;&#x518D;&#x6B21;&#x6309; p &#x5C06;&#x7528; foo &#x66FF;&#x6362; bar&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>p or P</td>
+<td>&#x7C98;&#x8D34;&#x6587;&#x672C;&#x4E4B;&#x524D;&#x6216;&#x4E4B;&#x540E;&#x7684;&#x6587;&#x672C;&#xFF0C;&#x5E76;&#x542F;&#x52A8;&#x7C98;&#x8D34;&#x77AC;&#x6001;</td>
+</tr>
+<tr>
+<td>p</td>
+<td>&#x5728;&#x77AC;&#x6001;&#xFF1A;&#x7528;&#x5148;&#x524D;&#x590D;&#x5236;&#x7684;&#x7C98;&#x8D34;&#x6587;&#x672C;&#x66FF;&#x6362;</td>
+</tr>
+<tr>
+<td>P</td>
+<td>&#x5728;&#x77AC;&#x6001;&#x4E2D;&#xFF1A;&#x7528;&#x4E0B;&#x4E00;&#x4E2A;&#x590D;&#x5236;&#x7684;&#x6587;&#x672C;&#x66FF;&#x6362;&#x7C98;&#x8D34;&#x6587;&#x672C;</td>
+</tr>
+<tr>
+<td>.</td>
+<td>&#x7C98;&#x8D34;&#x76F8;&#x540C;&#x7684;&#x6587;&#x672C;&#xFF0C;&#x5E76;&#x79BB;&#x5F00;&#x77AC;&#x6001;</td>
+</tr>
+<tr>
+<td>Any other key</td>
+<td>&#x79BB;&#x5F00;&#x77AC;&#x6001;</td>
+</tr>
+</tbody>
+</table>
+<h5 id="14812&#x81EA;&#x52A8;&#x7F29;&#x8FDB;&#x7C98;&#x8D34;&#x6587;&#x672C;">14.8.1.2&#x81EA;&#x52A8;&#x7F29;&#x8FDB;&#x7C98;&#x8D34;&#x6587;&#x672C;</h5>
+<p>&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x4EFB;&#x4F55;&#x7C98;&#x8D34;&#x7684;&#x6587;&#x672C;&#x90FD;&#x5C06;&#x88AB;&#x81EA;&#x52A8;&#x7F29;&#x8FDB;&#x3002;&#x7C98;&#x8D34;&#x6587;&#x672C;&#x4E0D;&#x52A0;&#x7F29;&#x8FDB;&#x4F7F;&#x7528;&#x901A;&#x7528;&#x7684;&#x53C2;&#x6570;&#x3002;</p>
+<p>&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5728;&#x60A8;&#x7684; dotspacemacs/user-config &#x51FD;&#x6570;&#x7684;&#x53D8;&#x91CF; spacemacs-indent-sensitive-modes &#x4E2D;&#x6DFB;&#x52A0; major-modes &#x6765;&#x7981;&#x7528;&#x7279;&#x5B9A;   major-mode &#x7684;&#x81EA;&#x52A8;&#x7F29;&#x8FDB;&#x3002;</p>
+<h4 id="1482&#x6587;&#x672C;&#x64CD;&#x4F5C;&#x547D;&#x4EE4;">14.8.2&#x6587;&#x672C;&#x64CD;&#x4F5C;&#x547D;&#x4EE4;</h4>
+<p>&#x6587;&#x672C;&#x76F8;&#x5173;&#x7684;&#x547D;&#x4EE4;&#xFF08;&#x4EE5;x&#x5F00;&#x5934;&#xFF09;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC x a &amp;</td>
+<td>align region at &amp;</td>
+</tr>
+<tr>
+<td>SPC x a (</td>
+<td>align region at (</td>
+</tr>
+<tr>
+<td>SPC x a )</td>
+<td>align region at )</td>
+</tr>
+<tr>
+<td>SPC x a ,</td>
+<td>align region at ,</td>
+</tr>
+<tr>
+<td>SPC x a .</td>
+<td>align region at . (for numeric tables)</td>
+</tr>
+<tr>
+<td>SPC x a :</td>
+<td>align region at :</td>
+</tr>
+<tr>
+<td>SPC x a ;</td>
+<td>align region at ;</td>
+</tr>
+<tr>
+<td>SPC x a =</td>
+<td>align region at =</td>
+</tr>
+<tr>
+<td>SPC x a a</td>
+<td>align region (or guessed section) using default rules</td>
+</tr>
+<tr>
+<td>SPC x a c</td>
+<td>align current intendation region using default rules</td>
+</tr>
+<tr>
+<td>SPC x a r</td>
+<td>align region using user-specified regexp</td>
+</tr>
+<tr>
+<td>SPC x a m</td>
+<td>align region at arithmetic operators (+-*/)</td>
+</tr>
+<tr>
+<td>SPC x a &#xA6;</td>
+<td>align region at &#xA6;</td>
+</tr>
+<tr>
+<td>SPC x c</td>
+<td>count the number of chars/words/lines in the selection region</td>
+</tr>
+<tr>
+<td>SPC x d w</td>
+<td>delete trailing whitespaces</td>
+</tr>
+<tr>
+<td>SPC x g l</td>
+<td>set languages used by translate commands</td>
+</tr>
+<tr>
+<td>SPC x g t</td>
+<td>translate current word using Google Translate</td>
+</tr>
+<tr>
+<td>SPC x g T</td>
+<td>reverse source and target languages</td>
+</tr>
+<tr>
+<td>SPC x j c</td>
+<td>set the justification to center</td>
+</tr>
+<tr>
+<td>SPC x j f</td>
+<td>set the justification to full</td>
+</tr>
+<tr>
+<td>SPC x j l</td>
+<td>set the justification to left</td>
+</tr>
+<tr>
+<td>SPC x j n</td>
+<td>set the justification to none</td>
+</tr>
+<tr>
+<td>SPC x j r</td>
+<td>set the justification to right</td>
+</tr>
+<tr>
+<td>SPC x J</td>
+<td>move down a line of text (enter transient state)</td>
+</tr>
+<tr>
+<td>SPC x K</td>
+<td>move up a line of text (enter transient state)</td>
+</tr>
+<tr>
+<td>SPC x l s</td>
+<td>sort lines</td>
+</tr>
+<tr>
+<td>SPC x l u</td>
+<td>uniquify lines</td>
+</tr>
+<tr>
+<td>SPC x o</td>
+<td>use avy to select a link in the frame and open it</td>
+</tr>
+<tr>
+<td>SPC x O</td>
+<td>use avy to select multiple links in the frame and open them</td>
+</tr>
+<tr>
+<td>SPC x t c</td>
+<td>swap (transpose) the current character with the previous one</td>
+</tr>
+<tr>
+<td>SPC x t w</td>
+<td>swap (transpose) the current word with the previous one</td>
+</tr>
+<tr>
+<td>SPC x t l</td>
+<td>swap (transpose) the current line with the previous one</td>
+</tr>
+<tr>
+<td>SPC x u</td>
+<td>set the selected text to lower case</td>
+</tr>
+<tr>
+<td>SPC x U</td>
+<td>set the selected text to upper case</td>
+</tr>
+<tr>
+<td>SPC x w c</td>
+<td>count the number of occurrences per word in the select region</td>
+</tr>
+<tr>
+<td>SPC x w d</td>
+<td>show dictionary entry of word from wordnik.com</td>
+</tr>
+<tr>
+<td>SPC x TAB</td>
+<td>indent or dedent a region rigidly</td>
+</tr>
+</tbody>
+</table>
+<h4 id="1483&#x6587;&#x672C;&#x63D2;&#x5165;&#x547D;&#x4EE4;">14.8.3&#x6587;&#x672C;&#x63D2;&#x5165;&#x547D;&#x4EE4;</h4>
+<p>&#x6587;&#x672C;&#x63D2;&#x5165;&#x547D;&#x4EE4;&#xFF08;&#x4ECE; i &#x5F00;&#x59CB;&#xFF09;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC i l l</td>
+<td>insert lorem-ipsum list</td>
+</tr>
+<tr>
+<td>SPC i l p</td>
+<td>insert lorem-ipsum paragraph</td>
+</tr>
+<tr>
+<td>SPC i l s</td>
+<td>insert lorem-ipsum sentence</td>
+</tr>
+<tr>
+<td>SPC i u</td>
+<td>Search for Unicode characters and insert them into the active buffer.</td>
+</tr>
+<tr>
+<td>SPC i U 1</td>
+<td>insert UUIDv1 (use universal argument to insert with CID format)</td>
+</tr>
+<tr>
+<td>SPC i U 4</td>
+<td>insert UUIDv4 (use universal argument to insert with CID format)</td>
+</tr>
+<tr>
+<td>SPC i U U</td>
+<td>insert UUIDv4 (use universal argument to insert with CID format)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="1484-smartparens-strict-mode">14.8.4 Smartparens Strict mode</h4>
+<p><a href="https://github.com/Fuco1/smartparens" target="_blank">Smartparens</a>&#x6709;&#x4E00;&#x4E2A;&#x4E25;&#x683C;&#x7684;&#x6A21;&#x5F0F;&#xFF0C;&#x5982;&#x679C;&#x7ED3;&#x679C;&#x4E0D;&#x5E73;&#x8861;&#xFF0C;&#x53EF;&#x4EE5;&#x9632;&#x6B62;&#x5220;&#x9664;&#x62EC;&#x53F7;&#x3002;</p>
+<p>&#x8FD9;&#x79CD;&#x6A21;&#x5F0F;&#x53EF;&#x80FD;&#x4F1A;&#x8BA9;&#x65B0;&#x624B;&#x611F;&#x5230;&#x6CAE;&#x4E27;&#xFF0C;&#x8FD9;&#x5C31;&#x662F;&#x4E3A;&#x4EC0;&#x4E48;&#x5B83;&#x6CA1;&#x6709;&#x9ED8;&#x8BA4;&#x542F;&#x7528;&#x3002;</p>
+<p>&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4F7F;&#x7528; &#x301C;/.spacemacs &#x7684;&#x53D8;&#x91CF; dotspacemacs-smartparens-strict-mode &#x6765;&#x8F7B;&#x677E;&#x542F;&#x7528;&#x6240;&#x6709;&#x7F16;&#x7A0B;&#x6A21;&#x5F0F;&#x3002;</p>
+<pre><code class="lang-lisp">(<span class="hljs-name">setq-default</span> dotspacemacs-smartparens-strict-mode <span class="hljs-literal">t</span>)
+</code></pre>
+<h4 id="1485-&#x7F29;&#x653E;zooming">14.8.5 &#x7F29;&#x653E;(Zooming)</h4>
+<h5 id="14851-&#x6587;&#x672C;">14.8.5.1 &#x6587;&#x672C;</h5>
+<p>&#x5F53;&#x524D;&#x7F13;&#x51B2;&#x533A;&#x7684;&#x5B57;&#x4F53;&#x5927;&#x5C0F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x8FDB;&#x884C;&#x8C03;&#x6574;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC z x +</td>
+<td>scale up the font and initiate the font scaling transient state</td>
+</tr>
+<tr>
+<td>SPC z x =</td>
+<td>scale up the font and initiate the font scaling transient state</td>
+</tr>
+<tr>
+<td>SPC z x -</td>
+<td>scale down the font and initiate the font scaling transient state</td>
+</tr>
+<tr>
+<td>SPC z x 0</td>
+<td>reset the font size (no scaling) and initiate the font scaling transient state</td>
+</tr>
+<tr>
+<td>+</td>
+<td>increase the font size</td>
+</tr>
+<tr>
+<td>=</td>
+<td>increase the font size</td>
+</tr>
+<tr>
+<td>-</td>
+<td>decrease the font size</td>
+</tr>
+<tr>
+<td>0</td>
+<td>reset the font size</td>
+</tr>
+<tr>
+<td>Any other key</td>
+<td>leave the font scaling transient state</td>
+</tr>
+</tbody>
+</table>
+<p>&#x8BF7;&#x6CE8;&#x610F;&#xFF0C;&#x53EA;&#x6709;&#x5F53;&#x524D;&#x7F13;&#x51B2;&#x533A;&#x7684;&#x6587;&#x672C;&#x88AB;&#x7F29;&#x653E;&#xFF0C;&#x5176;&#x4ED6;&#x7F13;&#x51B2;&#x533A;&#xFF0C;&#x6A21;&#x5F0F;&#x884C;&#x548C;&#x5C0F;&#x7F13;&#x51B2;&#x533A;&#x4E0D;&#x53D7;&#x5F71;&#x54CD;&#x3002;&#x4F7F;&#x7528;&#x7F29;&#x653E;&#x6846;&#x67B6;&#x7ED1;&#x5B9A;&#x7F29;&#x653E;&#x6846;&#x67B6;&#x7684;&#x5168;&#x90E8;&#x5185;&#x5BB9;&#xFF08;&#x8BF7;&#x53C2;&#x9605;&#x4E0B;&#x4E00;&#x8282;&#xFF09;&#x3002;</p>
+<h5 id="14852-&#x6846;&#x67B6;frame">14.8.5.2 &#x6846;&#x67B6;(Frame)</h5>
+<p>&#x60A8;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x653E;&#x5927;&#x548C;&#x7F29;&#x5C0F;&#x6846;&#x67B6;&#x7684;&#x5168;&#x90E8;&#x5185;&#x5BB9;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC z f +</td>
+<td>&#x653E;&#x5927;&#x6846;&#x67B6;&#x5185;&#x5BB9;&#x5E76;&#x542F;&#x52A8;&#x6846;&#x67B6;&#x7F29;&#x653E;&#x77AC;&#x6001;</td>
+</tr>
+<tr>
+<td>SPC z f =</td>
+<td>&#x653E;&#x5927;&#x6846;&#x67B6;&#x5185;&#x5BB9;&#x5E76;&#x542F;&#x52A8;&#x6846;&#x67B6;&#x7F29;&#x653E;&#x77AC;&#x6001; scaling transient state</td>
+</tr>
+<tr>
+<td>SPC z f -</td>
+<td>&#x7F29;&#x5C0F;&#x6846;&#x67B6;&#x5185;&#x5BB9;&#x5E76;&#x542F;&#x52A8;&#x6846;&#x67B6;&#x7F29;&#x653E;&#x77AC;&#x6001;</td>
+</tr>
+<tr>
+<td>SPC z f 0</td>
+<td>&#x91CD;&#x7F6E;&#x6846;&#x67B6;&#x5185;&#x5BB9;&#x5927;&#x5C0F;&#x5E76;&#x542F;&#x52A8;&#x6846;&#x67B6;&#x7F29;&#x653E;&#x77AC;&#x6001;</td>
+</tr>
+<tr>
+<td>+</td>
+<td>&#x653E;&#x5927;</td>
+</tr>
+<tr>
+<td>=</td>
+<td>&#x653E;&#x5927;</td>
+</tr>
+<tr>
+<td>-</td>
+<td>&#x7F29;&#x5C0F;</td>
+</tr>
+<tr>
+<td>0</td>
+<td>&#x91CD;&#x7F6E;&#x7F29;&#x653E;</td>
+</tr>
+<tr>
+<td>&#x4EFB;&#x4F55;&#x5176;&#x4ED6;&#x7684;&#x952E;</td>
+<td>&#x4FDD;&#x6301;&#x7F29;&#x653E;&#x6846;&#x67B6;&#x7684;&#x77AC;&#x6001;&#x72B6;&#x6001;</td>
+</tr>
+</tbody>
+</table>
+<h4 id="1486&#x589E;&#x52A0;&#x51CF;&#x5C11;&#x6570;&#x5B57;">14.8.6&#x589E;&#x52A0;/&#x51CF;&#x5C11;&#x6570;&#x5B57;</h4>
+<p>Spacemacs &#x4F7F;&#x7528; <a href="https://github.com/cofi/evil-numbers" target="_blank">evil-number</a> &#x6765;&#x8F7B;&#x677E;&#x5730;&#x589E;&#x52A0;&#x6216;&#x51CF;&#x5C11;&#x6570;&#x5B57;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC n +</td>
+<td>increase the number under point by one and initiate transient state</td>
+</tr>
+<tr>
+<td>SPC n -</td>
+<td>decrease the number under point by one and initiate transient state</td>
+</tr>
+</tbody>
+</table>
+<p>&#x5728;&#x77AC;&#x6001;&#x4E2D;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+</td>
+<td>increase the number under point by one</td>
+</tr>
+<tr>
+<td>-</td>
+<td>decrease the number under point by one</td>
+</tr>
+<tr>
+<td>Any other key</td>
+<td>leave the transient state</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>&#x63D0;&#x793A;&#xFF1A;&#x4F60;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4F7F;&#x7528;&#x524D;&#x7F00;&#x53C2;&#x6570;&#x591A;&#x6B21;&#x589E;&#x52A0;&#x6216;&#x51CF;&#x5C11;&#x4E00;&#x4E2A;&#x503C;&#xFF08;&#x5373;&#xFF0C;10 SPC n + &#x5C06;&#x70B9;&#x6570;&#x52A0;10&#xFF09;&#x3002;</p>
+</blockquote>
+<h4 id="1487-&#x62FC;&#x5199;&#x68C0;&#x67E5;">14.8.7 &#x62FC;&#x5199;&#x68C0;&#x67E5;</h4>
+<p>&#x901A;&#x8FC7;&#x5728;&#x4F60;&#x7684; dotfile &#x4E2D;&#x5305;&#x542B; spell checking layer &#x6765;&#x542F;&#x7528;&#x62FC;&#x5199;&#x68C0;&#x67E5;&#x3002;</p>
+<p>&#x952E;&#x7ED1;&#x5B9A;&#x5217;&#x5728; layer &#x6587;&#x6863;&#x4E2D;&#x3002;</p>
+<h4 id="1488&#x533A;&#x57DF;&#x9009;&#x62E9;">14.8.8&#x533A;&#x57DF;&#x9009;&#x62E9;</h4>
+<p>evil &#x652F;&#x6301; Vi &#x4E2D;&#x6240;&#x6709;&#x7684; Visual modes</p>
+<h5 id="14881-&#x6269;&#x5927;&#x533A;&#x57DF;expand-region">14.8.8.1 &#x6269;&#x5927;&#x533A;&#x57DF;(Expand-region)</h5>
+<p>Spacemacs &#x901A;&#x8FC7; <a href="https://github.com/magnars/expand-region.el" target="_blank">expand-regin</a> mode &#x6DFB;&#x52A0;&#x4E86;&#x53E6;&#x4E00;&#x79CD; Visual mode&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC v</td>
+<td>&#x542F;&#x52A8; expand-regin &#x6A21;&#x5F0F;&#xFF0C;&#x7136;&#x540E;...</td>
+</tr>
+<tr>
+<td>v</td>
+<td>&#x7528;&#x4E00;&#x4E2A;&#x8BED;&#x4E49;&#x5355;&#x4F4D;&#x6765;&#x6269;&#x5C55;&#x8BE5;&#x533A;&#x57DF;</td>
+</tr>
+<tr>
+<td>V</td>
+<td>&#x901A;&#x8FC7;&#x4E00;&#x4E2A;&#x8BED;&#x4E49;&#x5355;&#x5143;&#x6765;&#x6536;&#x7F29;&#x533A;&#x57DF;</td>
+</tr>
+<tr>
+<td>r</td>
+<td>&#x5C06;&#x533A;&#x57DF;&#x91CD;&#x7F6E;&#x4E3A;&#x521D;&#x59CB;&#x9009;&#x62E9;</td>
+</tr>
+<tr>
+<td>ESC</td>
+<td>&#x79BB;&#x5F00; expand-regin &#x6A21;&#x5F0F;</td>
+</tr>
+</tbody>
+</table>
+<h5 id="14882&#x7F29;&#x8FDB;&#x6587;&#x672C;&#x5BF9;&#x8C61;indent-text-object">14.8.8.2&#x7F29;&#x8FDB;&#x6587;&#x672C;&#x5BF9;&#x8C61;(Indent text object)</h5>
+<p><a href="https://github.com/TheBB/evil-indent-plus" target="_blank">evil-indent-plus</a>  &#x4EE5;&#x4E0B;&#x6587;&#x672C;&#x5BF9;&#x8C61;&#x53EF;&#x7528;&#xFF1A;</p>
+<ul>
+<li>ii  - &#x5185;&#x90E8;&#x7F29;&#x8FDB;&#xFF1A;&#x5468;&#x56F4;&#x7684;&#x6587;&#x672C;&#x5757;&#x5177;&#x6709;&#x76F8;&#x540C;&#x7684;&#x7F29;&#x8FDB;</li>
+<li>iI  - &#x4E0A;&#x9762;&#x548C;&#x7F29;&#x8FDB;&#xFF1A;ii + &#x4E0A;&#x9762;&#x7684;&#x884C;&#x7528;&#x4E0D;&#x540C;&#x7684;&#x7F29;&#x8FDB;</li>
+<li>iJ  - &#x4E0A;&#x9762;&#xFF0C;&#x4E0B;&#x9762;&#x548C;&#x7F29;&#x8FDB;+&#xFF1A;ii +&#x4E0B;&#x9762;&#x7684;&#x884C;&#x7528;&#x4E0D;&#x540C;&#x7684;&#x7F29;&#x8FDB;</li>
+</ul>
+<p>&#x8FD8;&#x6709;&#x4E00;&#x4E2A;&#x5305;&#x542B;&#x7A7A;&#x767D;&#x7684;&#x53D8;&#x4F53;.&#x4F8B;&#x5B50;&#xFF08;| &#x8868;&#x793A;&#x70B9;&#xFF09;&#xFF1A;</p>
+<pre><code class="lang-lisp">(<span class="hljs-name">while</span> (<span class="hljs-name">not</span> done)
+  (<span class="hljs-name">messa</span>|ge <span class="hljs-string">&quot;All work and no play makes Jack a dull boy.&quot;</span>))
+(<span class="hljs-number">1</span>+ <span class="hljs-number">41</span>)
+</code></pre>
+<ul>
+<li>vii &#x4F1A;&#x9009;&#x62E9;&#x5E26;&#x6D88;&#x606F;&#x7684;&#x884C;</li>
+<li>viI &#x4F1A;&#x9009;&#x62E9;&#x6574;&#x4E2A;while&#x5FAA;&#x73AF;</li>
+<li>viJ &#x5C06;&#x9009;&#x62E9;&#x6574;&#x4E2A;&#x7247;&#x6BB5;</li>
+</ul>
+<h4 id="1489-&#x533A;&#x57DF;&#x7F29;&#x5C0F;region-narrowing">14.8.9 &#x533A;&#x57DF;&#x7F29;&#x5C0F;(Region narrowing)</h4>
+<p>&#x7F13;&#x51B2;&#x533A;&#x7684;&#x663E;&#x793A;&#x6587;&#x672C;&#x53EF;&#x4EE5;&#x7528;&#x547D;&#x4EE4;&#x7F29;&#x5C0F;&#xFF08;&#x4ECE; n &#x5F00;&#x59CB;&#xFF09;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC n f</td>
+<td>&#x5C06;&#x7F13;&#x51B2;&#x533A;&#x7F29;&#x5C0F;&#x5230;&#x5F53;&#x524D;&#x7684;&#x529F;&#x80FD;</td>
+</tr>
+<tr>
+<td>SPC n p</td>
+<td>&#x5C06;&#x7F13;&#x51B2;&#x533A;&#x7F29;&#x5C0F;&#x5230;&#x53EF;&#x89C1;&#x9875;&#x9762;</td>
+</tr>
+<tr>
+<td>SPC n r</td>
+<td>&#x5C06;&#x7F13;&#x51B2;&#x533A;&#x7F29;&#x5C0F;&#x5230;&#x9009;&#x5B9A;&#x7684;&#x6587;&#x672C;</td>
+</tr>
+<tr>
+<td>SPC n w</td>
+<td>&#x6269;&#x5927;&#xFF0C;&#x5373;&#x518D;&#x6B21;&#x663E;&#x793A;&#x6574;&#x4E2A;&#x7F13;&#x51B2;&#x533A;</td>
+</tr>
+</tbody>
+</table>
+<h4 id="14810-&#x7528;iedit&#x66FF;&#x6362;&#x6587;&#x672C;replacing-text-with-iedit">14.8.10 &#x7528;iedit&#x66FF;&#x6362;&#x6587;&#x672C;(Replacing text with iedit)</h4>
+<p>Spacemacs &#x901A;&#x8FC7; <a href="https://github.com/syl20bnr/evil-iedit-state" target="_blank">evil-iedit-state</a> &#x4F7F;&#x7528;&#x5F3A;&#x5927;&#x7684; <a href="https://github.com/tsdh/iedit" target="_blank">iedit</a> &#x6A21;&#x5F0F;&#x6765;&#x5FEB;&#x901F;&#x7F16;&#x8F91;&#x591A;&#x4E2A;&#x7B26;&#x53F7;&#x6216;&#x9009;&#x9879;&#x3002;</p>
+<p>evil-iedit-state &#x5B9A;&#x4E49;&#x4E86;&#x4E24;&#x4E2A;&#x65B0;&#x7684; evil stataes&#xFF1A;</p>
+<ul>
+<li>iedit state</li>
+<li>iedit-insert state</li>
+</ul>
+<p>&#x8FD9;&#x4E9B;&#x72B6;&#x6001;&#x7684;&#x989C;&#x8272;&#x4EE3;&#x7801;&#x662F;&#x7EA2;&#x8272;&#x7684;&#x3002;</p>
+<p>evil-iedit-state &#x4E0E; <a href="https://github.com/magnars/expand-region.el" target="_blank">expand-region</a>  &#x4E5F;&#x6709;&#x5F88;&#x597D;&#x7684;&#x96C6;&#x6210;&#xFF0C;&#x901A;&#x8FC7;&#x6309; e &#x53EF;&#x5FEB;&#x901F;&#x7F16;&#x8F91;&#x5F53;&#x524D;&#x9009;&#x5B9A;&#x7684;&#x6587;&#x672C;&#x3002;</p>
+<h5 id="148101-iedit-states-&#x952E;&#x7ED1;&#x5B9A;-iedit-states-key-bindings">14.8.10.1 iedit states &#x952E;&#x7ED1;&#x5B9A;( iedit states key bindings)</h5>
+<ol>
+<li>&#x72B6;&#x6001;&#x8F6C;&#x6362;</li>
+<li>Key Binding    | From    | To
+---|---|---
+SPC s e    |normal or visual    |iedit
+e    |expand-region    |iedit
+ESC    |iedit    |normal
+C-g    |iedit    |normal
+fd    |iedit    |normal
+ESC    |iedit-insert    |iedit
+C-g    |iedit-insert    |normal
+fd    |iedit-insert    |norma</li>
+</ol>
+<p>&#x603B;&#x7ED3;&#xFF0C;&#x5728; iedit-insert &#x72B6;&#x6001;&#xFF0C;&#x4F60;&#x5FC5;&#x987B;&#x6309;&#x4E24;&#x6B21; ESC &#x56DE;&#x5230; normal &#x72B6;&#x6001;&#x3002;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x968F;&#x65F6;&#x6309; C-g &#x6216; fd &#x56DE;&#x5230; normal &#x72B6;&#x6001;&#x3002;</p>
+<blockquote>
+<p>&#x6CE8;&#x610F;&#xFF1A;&#x5207;&#x6362;&#x5230; insert &#x72B6;&#x6001;&#x7684; evil &#x547D;&#x4EE4;&#x4F1A;&#x5207;&#x6362;&#x5230; iedit-insert &#x72B6;&#x6001;&#x3002;</p>
+</blockquote>
+<ol>
+<li>&#x5728; iedi t&#x72B6;&#x6001;
+iedit &#x72B6;&#x6001;&#x4ECE; normal &#x72B6;&#x6001;&#x7EE7;&#x627F;&#xFF0C;&#x4E0B;&#x9762;&#x7684;&#x952E;&#x7ED1;&#x5B9A;&#x662F;&#x7279;&#x5B9A;&#x4E8E; iedit &#x72B6;&#x6001;&#x7684;&#x3002;</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ESC</td>
+<td>go back to normal state</td>
+</tr>
+<tr>
+<td>TAB</td>
+<td>toggle current occurrence</td>
+</tr>
+<tr>
+<td>0</td>
+<td>go to the beginning of the current occurrence</td>
+</tr>
+<tr>
+<td>$</td>
+<td>go to the end of the current occurrence</td>
+</tr>
+<tr>
+<td>#</td>
+<td>prefix all occurrences with an increasing number (SPC u to choose the starting number).</td>
+</tr>
+<tr>
+<td>A</td>
+<td>go to the end of the current occurrence and switch to iedit-insert state</td>
+</tr>
+<tr>
+<td>D</td>
+<td>delete the occurrences</td>
+</tr>
+<tr>
+<td>F</td>
+<td>restrict the scope to the function</td>
+</tr>
+<tr>
+<td>gg</td>
+<td>go to first occurrence</td>
+</tr>
+<tr>
+<td>G</td>
+<td>go to last occurrence</td>
+</tr>
+<tr>
+<td>I</td>
+<td>go to the beginning of the current occurrence and switch to iedit-insert state</td>
+</tr>
+<tr>
+<td>J</td>
+<td>increase the editing scope by one line below</td>
+</tr>
+<tr>
+<td>K</td>
+<td>increase the editing scope by one line above</td>
+</tr>
+<tr>
+<td>L</td>
+<td>restrict the scope to the current line</td>
+</tr>
+<tr>
+<td>n</td>
+<td>go to next occurrence</td>
+</tr>
+<tr>
+<td>N</td>
+<td>go to previous occurrence</td>
+</tr>
+<tr>
+<td>p</td>
+<td>replace occurrences with last yanked (copied) text</td>
+</tr>
+<tr>
+<td>S</td>
+<td>(substitute) delete the occurrences and switch to iedit-insert state</td>
+</tr>
+<tr>
+<td>V</td>
+<td>toggle visibility of lines with no occurrence</td>
+</tr>
+<tr>
+<td>U</td>
+<td>Up-case the occurrences</td>
+</tr>
+<tr>
+<td>C-U</td>
+<td>down-case the occurrences</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>&#x6CE8;&#x610F;&#xFF1A;0&#xFF0C;$&#xFF0C;a&#x548C;&#x6211;&#x6709;&#x9ED8;&#x8BA4;&#x7684; vim &#x884C;&#x4E3A;&#x5728;&#x4E8B;&#x4EF6;&#x4E4B;&#x5916;&#x4F7F;&#x7528;&#x3002;</p>
+</blockquote>
+<ol>
+<li>&#x5728; iedit-insert &#x72B6;&#x6001;</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ESC    go</td>
+<td>back to iedit state</td>
+</tr>
+<tr>
+<td>C-g    go</td>
+<td>back to normal state</td>
+</tr>
+</tbody>
+</table>
+<h5 id="148102-&#x4F8B;&#x5B50;">14.8.10.2 &#x4F8B;&#x5B50;</h5>
+<ul>
+<li>&#x624B;&#x52A8;&#x9009;&#x62E9;&#x51E0;&#x4E2A;&#x5B57;&#x7136;&#x540E;&#x66FF;&#x6362;&#xFF1A;v w w SPC s e S &quot;toto&quot; ESC ESC</li>
+<li>&#x5C06;&#x6587;&#x672C;&#x9644;&#x52A0;&#x5230;&#x4E24;&#x884C;&#x7684;&#x5355;&#x8BCD;&#x4E0A;&#xFF1A;v i w SPC s e J i &quot;toto&quot; ESC ESC</li>
+<li>&#x7528; expand-region &#x66FF;&#x4EE3;&#x7B26;&#x53F7;&#xFF1A;SPC v v e S &quot;toto&quot; ESC ESC</li>
+<li>&#x7528;&#x6269;&#x5C55;&#x533A;&#x57DF;&#x66FF;&#x6362;&#x7B26;&#x53F7;&#x4E0E;&#x88AB;&#x62BD;&#x51FA;&#xFF08;&#x590D;&#x5236;&#xFF09;&#x7684;&#x6587;&#x672C;&#xFF1A;SPC v e p ESC ESC</li>
+</ul>
+<h4 id="14811-&#x66FF;&#x6362;&#x51E0;&#x4E2A;&#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x6587;&#x672C;">14.8.11 &#x66FF;&#x6362;&#x51E0;&#x4E2A;&#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x6587;&#x672C;</h4>
+<p>&#x5982;&#x679C;&#x60A8;&#x5B89;&#x88C5;&#x4E86; ag &#xFF0C;pt &#x6216; ack &#xFF0C;&#x5219;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; <a href="https://github.com/syohex/emacs-helm-ag" target="_blank">helm-ag</a> &#x6765;&#x66FF;&#x6362;&#x591A;&#x4E2A;&#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x6587;&#x672C;&#x3002;</p>
+<p>&#x5047;&#x8BBE;&#x4F60;&#x60F3;&#x5728;&#x5F53;&#x524D;&#x9879;&#x76EE;&#x4E2D;&#x7528; bar &#x66FF;&#x6362;&#x6240;&#x6709;&#x7684; foo &#x4E8B;&#x4EF6;&#xFF1A;</p>
+<ul>
+<li>&#x7528; SPC / &#x5F00;&#x59CB;&#x641C;&#x7D22;</li>
+<li>&#x7528; C-c C-e &#x7F16;&#x8F91;&#x6A21;&#x5F0F;&#x8FDB;&#x5165;</li>
+<li>&#x7528; SPC s e &#x53BB;&#x53D1;&#x751F;&#x5E76;&#x8FDB;&#x5165; iedit state</li>
+<li>&#x7F16;&#x8F91;&#x4E8B;&#x4EF6;&#xFF0C;&#x7136;&#x540E;&#x79BB;&#x5F00; iedit state</li>
+<li>&#x6309; C-c C-c</li>
+</ul>
+<blockquote>
+<p>&#x6CE8;&#x610F;&#xFF1A;&#x5728; Spacemacs &#x4E2D;&#xFF0C;&#x5C3D;&#x7BA1; helm-ag &#x7684;&#x540D;&#x5B57;&#x4E0E;  ack &#x548C; pt &#x4E00;&#x8D77;&#x5DE5;&#x4F5C;&#xFF08;&#x4F46;&#x4E0D;&#x4E0E; grep &#x4E00;&#x8D77;&#xFF09;&#x3002;</p>
+</blockquote>
+<h4 id="14812-&#x91CD;&#x547D;&#x540D;&#x76EE;&#x5F55;&#x4E2D;&#x7684;&#x6587;&#x4EF6;">14.8.12 &#x91CD;&#x547D;&#x540D;&#x76EE;&#x5F55;&#x4E2D;&#x7684;&#x6587;&#x4EF6;</h4>
+<p>&#x53EF;&#x4EE5;&#x4F7F;&#x7528; helm &#x4F1A;&#x8BDD;&#x4E2D;&#x7684; wdired &#x6279;&#x91CF;&#x91CD;&#x547D;&#x540D;&#x76EE;&#x5F55;&#x4E2D;&#x7684;&#x6587;&#x4EF6;&#xFF1A;</p>
+<ul>
+<li>&#x4F7F;&#x7528; SPC f f &#x6D4F;&#x89C8;&#x76EE;&#x5F55;</li>
+<li>&#x7528; C-c C-e &#x8FDB;&#x5165; wdired</li>
+<li>&#x7F16;&#x8F91;&#x6587;&#x4EF6;&#x540D;&#x5E76;&#x4F7F;&#x7528; C-c C-c &#x786E;&#x8BA4;&#x66F4;&#x6539;</li>
+<li>&#x4F7F;&#x7528; C-c C-k &#x653E;&#x5F03;&#x6240;&#x6709;&#x66F4;&#x6539;<h4 id="14813-&#x8BC4;&#x8BBA;">14.8.13 &#x8BC4;&#x8BBA;</h4>
+&#x8BC4;&#x8BBA;&#x7531; <a href="https://github.com/redguardtoo/evil-nerd-commenter" target="_blank">evil-nerd-commenter</a> &#x5904;&#x7406;&#xFF0C;&#x5B83;&#x88AB;&#x7ED1;&#x5B9A;&#x5230;&#x4E0B;&#x9762;&#x7684;&#x952E;&#x3002;</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC ;</td>
+<td>comment operator</td>
+</tr>
+<tr>
+<td>SPC c l</td>
+<td>comment lines</td>
+</tr>
+<tr>
+<td>SPC c L</td>
+<td>invert comment lines</td>
+</tr>
+<tr>
+<td>SPC c p</td>
+<td>comment paragraphs</td>
+</tr>
+<tr>
+<td>SPC c P</td>
+<td>invert comment paragraphs</td>
+</tr>
+<tr>
+<td>SPC c t</td>
+<td>comment to line</td>
+</tr>
+<tr>
+<td>SPC c T</td>
+<td>invert comment to line</td>
+</tr>
+<tr>
+<td>SPC c y</td>
+<td>comment and yank</td>
+</tr>
+<tr>
+<td>SPC c Y</td>
+<td>invert comment and yank</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>&#x63D0;&#x793A;&#xFF1A;&#x6709;&#x6548;&#x5730;&#x8BC4;&#x8BBA;&#x4E00;&#x884C;&#x4F7F;&#x7528;&#x7EC4;&#x5408; SPC ; SPC y</p>
+</blockquote>
+<h4 id="14814-&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;">14.8.14 &#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;</h4>
+<p>Spacemacs &#x4F7F;&#x7528;&#x5305; <a href="https://github.com/joddie/pcre2el" target="_blank">pcre2el</a> &#x6765;&#x64CD;&#x4F5C;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x3002;&#x5728;&#x4F7F;&#x7528; Emacs Lisp &#x7F13;&#x51B2;&#x533A;&#x65F6;&#x5B83;&#x5F88;&#x6709;&#x7528;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x5141;&#x8BB8;&#x8F7B;&#x677E;&#x5730;&#x5C06; PCRE&#xFF08; Perl &#x517C;&#x5BB9; RegExp &#xFF09;&#x8F6C;&#x6362;&#x4E3A; Emacs Regexp &#x6216; rx&#x3002;&#x5B83;&#x4E5F;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x201C;&#x89E3;&#x91CA;&#x201D;&#x4E00;&#x4E2A; PCRE RegExp   &#x4EE5; rx &#x5F62;&#x5F0F;&#x8868;&#x793A;&#x7684;&#x70B9;&#x3002;</p>
+<p>&#x952E;&#x7ED1;&#x5B9A;&#x4EE5; SPC x r &#x5F00;&#x59CB;&#x5E76;&#x5177;&#x6709;&#x4EE5;&#x4E0B;&#x52A9;&#x8BB0;&#x7B26;&#x7ED3;&#x6784;&#xFF1A;</p>
+<ul>
+<li>SPC x r <source> <target> &#x4ECE;&#x6E90;&#x4EE3;&#x7801;&#x8F6C;&#x6362;&#x4E3A;&#x76EE;&#x6807;&#x4EE3;&#x7801;</target></li>
+<li>spc x r &#x505A;&#x6211;&#x7684;&#x610F;&#x601D;</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC x r /</td>
+<td>Explain the regexp around point with rx</td>
+</tr>
+<tr>
+<td>SPC x r &apos;</td>
+<td>Generate strings given by a regexp given this list is finite</td>
+</tr>
+<tr>
+<td>SPC x r t</td>
+<td>Replace regexp around point by the rx form or vice versa</td>
+</tr>
+<tr>
+<td>SPC x r x</td>
+<td>Convert regexp around point in rx form and display the result in the minibuffer</td>
+</tr>
+<tr>
+<td>SPC x r c</td>
+<td>Convert regexp around point to the other form and display the result in the minibuffer</td>
+</tr>
+<tr>
+<td>SPC x r e /</td>
+<td>Explain Emacs Lisp regexp</td>
+</tr>
+<tr>
+<td>SPC x r e &apos;</td>
+<td>Generate strings from Emacs Lisp regexp</td>
+</tr>
+<tr>
+<td>SPC x r e p</td>
+<td>Convert Emacs Lisp regexp to PCRE</td>
+</tr>
+<tr>
+<td>SPC x r e t</td>
+<td>Replace Emacs Lisp regexp by rx form or vice versa</td>
+</tr>
+<tr>
+<td>SPC x r e x</td>
+<td>Convert Emacs Lisp regexp to rx form</td>
+</tr>
+<tr>
+<td>SPC x r p /</td>
+<td>Explain PCRE regexp</td>
+</tr>
+<tr>
+<td>SPC x r p &apos;</td>
+<td>Generate strings from PCRE regexp</td>
+</tr>
+<tr>
+<td>SPC x r p e</td>
+<td>Convert PCRE regexp to Emacs Lisp</td>
+</tr>
+<tr>
+<td>SPC x r p x</td>
+<td>Convert PCRE to rx form</td>
+</tr>
+</tbody>
+</table>
+<h4 id="14815-&#x5220;&#x9664;&#x6587;&#x4EF6;">14.8.15 &#x5220;&#x9664;&#x6587;&#x4EF6;</h4>
+<p>&#x5220;&#x9664;&#x914D;&#x7F6E;&#x4E3A;&#x5C06;&#x5220;&#x9664;&#x7684;&#x6587;&#x4EF6;&#x53D1;&#x9001;&#x5230;&#x7CFB;&#x7EDF;&#x5783;&#x573E;&#x7BB1;&#x3002;</p>
+<p>&#x5728; OS x &#x4E0A;&#x9700;&#x8981;&#x5783;&#x573E;&#x7A0B;&#x5E8F;&#x3002;&#x5B83;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; homebrew  &#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x4E0E;&#x81EA;&#x5236;&#x8F6F;&#x4EF6;&#x4E00;&#x8D77;&#x5B89;&#x88C5;&#xFF1A;</p>
+<pre><code>$ brew install trash
+</code></pre><p>&#x8981;&#x7981;&#x7528;&#x5783;&#x573E;&#x7BB1;&#xFF0C;&#x60A8;&#x53EF;&#x4EE5;&#x5728; &#x301C;/.spacemacs &#x4E2D;&#x5C06;&#x53D8;&#x91CF; delete-by-moving-to-trash &#x8BBE;&#x7F6E;&#x4E3A; nil&#x3002;</p>
+<h4 id="14816-&#x7F16;&#x8F91;-lisp-&#x4EE3;&#x7801;">14.8.16 &#x7F16;&#x8F91; lisp &#x4EE3;&#x7801;</h4>
+<p>lisp &#x4EE3;&#x7801;&#x7684;&#x7F16;&#x8F91;&#x7531; evil-lisp-state &#x63D0;&#x4F9B;&#x3002;</p>
+<p>&#x547D;&#x4EE4;&#x4F1A;&#x5C06;&#x5F53;&#x524D;&#x72B6;&#x6001;&#x8BBE;&#x7F6E;&#x4E3A; lisp &#x72B6;&#x6001;&#xFF0C;&#x5176;&#x4E2D;&#x53EF;&#x4EE5;&#x91CD;&#x590D;&#x4E0D;&#x540C;&#x7684;&#x547D;&#x4EE4;&#x7EC4;&#x5408;&#xFF0C;&#x800C;&#x65E0;&#x9700;&#x6309;&#x4E0B; SPC k&#x3002;</p>
+<p>&#x5F53;&#x5904;&#x4E8E; lisp &#x72B6;&#x6001;&#x65F6;&#xFF0C;mode-line &#x7684;&#x989C;&#x8272;&#x53D8;&#x4E3A;&#x7C89;&#x7EA2;&#x8272;&#x3002;</p>
+<p>&#x4F8B;&#x5B50;&#xFF1A;</p>
+<ul>
+<li>&#x5728;&#x6B63;&#x5E38;&#x72B6;&#x6001;&#x4E0B;&#x555C;&#x996E;&#x4E09;&#x6B21;&#xFF1A;SPC k 3 s</li>
+<li>&#x5728;&#x5706;&#x62EC;&#x53F7;&#x4E2D;&#x5305;&#x88C5;&#x4E00;&#x4E2A;&#x7B26;&#x53F7;&#xFF0C;&#x7136;&#x540E;&#x555C;&#x996E;&#x4E24;&#x6B21;&#xFF1A;SPC k w 2 s</li>
+</ul>
+<blockquote>
+<p>&#x6CE8;&#x610F;&#xFF1A;lisp &#x72B6;&#x6001;&#x547D;&#x4EE4;&#x53EF;&#x4EE5;&#x5728;&#x4EFB;&#x4F55;&#x6A21;&#x5F0F;&#x4E0B;&#x4F7F;&#x7528;&#xFF01;&#x8BD5;&#x8BD5;&#x770B;&#x3002;</p>
+</blockquote>
+<h4 id="148161-lisp-&#x952E;&#x7ED1;&#x5B9A;">14.8.16.1 lisp &#x952E;&#x7ED1;&#x5B9A;</h4>
+<ol>
+<li>lisp&#x72B6;&#x6001;&#x952E;&#x7ED1;&#x5B9A;
+&#x8FD9;&#x4E9B;&#x547D;&#x4EE4;&#x81EA;&#x52A8;&#x5207;&#x6362;&#x5230;  lisp &#x72B6;&#x6001;&#x3002;</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC k %</td>
+<td>evil jump item</td>
+</tr>
+<tr>
+<td>SPC k :</td>
+<td>ex command</td>
+</tr>
+<tr>
+<td>SPC k (</td>
+<td>insert expression before (same level as current one)</td>
+</tr>
+<tr>
+<td>SPC k )</td>
+<td>insert expression after (same level as current one)</td>
+</tr>
+<tr>
+<td>SPC k $</td>
+<td>go to the end of current sexp</td>
+</tr>
+<tr>
+<td>SPC k ` k</td>
+<td>hybrid version of push sexp (can be used in non lisp dialects)</td>
+</tr>
+<tr>
+<td>SPC k ` p</td>
+<td>hybrid version of push sexp (can be used in non lisp dialects)</td>
+</tr>
+<tr>
+<td>SPC k ` s</td>
+<td>hybrid version of slurp sexp (can be used in non lisp dialects)</td>
+</tr>
+<tr>
+<td>SPC k ` t</td>
+<td>hybrid version of transpose sexp (can be used in non lisp dialects)</td>
+</tr>
+<tr>
+<td>SPC k 0</td>
+<td>go to the beginning of current sexp</td>
+</tr>
+<tr>
+<td>SPC k a</td>
+<td>absorb expression</td>
+</tr>
+<tr>
+<td>SPC k b</td>
+<td>forward barf expression</td>
+</tr>
+<tr>
+<td>SPC k B</td>
+<td>backward barf expression</td>
+</tr>
+<tr>
+<td>SPC k c</td>
+<td>convolute expression</td>
+</tr>
+<tr>
+<td>SPC k ds</td>
+<td>delete symbol</td>
+</tr>
+<tr>
+<td>SPC k Ds</td>
+<td>backward delete symbol</td>
+</tr>
+<tr>
+<td>SPC k dw</td>
+<td>delete word</td>
+</tr>
+<tr>
+<td>SPC k Dw</td>
+<td>backward delete word</td>
+</tr>
+<tr>
+<td>SPC k dx</td>
+<td>delete expression</td>
+</tr>
+<tr>
+<td>SPC k Dx</td>
+<td>backward delete expression</td>
+</tr>
+<tr>
+<td>SPC k e</td>
+<td>unwrap current expression and kill all symbols after point</td>
+</tr>
+<tr>
+<td>SPC k E</td>
+<td>unwrap current expression and kill all symbols before point</td>
+</tr>
+<tr>
+<td>SPC k h</td>
+<td>previous symbol</td>
+</tr>
+<tr>
+<td>SPC k H</td>
+<td>go to previous sexp</td>
+</tr>
+<tr>
+<td>SPC k i</td>
+<td>switch to insert state</td>
+</tr>
+<tr>
+<td>SPC k I</td>
+<td>go to beginning of current expression and switch to insert state</td>
+</tr>
+<tr>
+<td>SPC k j</td>
+<td>next closing parenthesis</td>
+</tr>
+<tr>
+<td>SPC k J</td>
+<td>join expression</td>
+</tr>
+<tr>
+<td>SPC k k</td>
+<td>previous opening parenthesis</td>
+</tr>
+<tr>
+<td>SPC k l</td>
+<td>next symbol</td>
+</tr>
+<tr>
+<td>SPC k L</td>
+<td>go to next sexp</td>
+</tr>
+<tr>
+<td>SPC k p</td>
+<td>paste after</td>
+</tr>
+<tr>
+<td>SPC k P</td>
+<td>paste before</td>
+</tr>
+<tr>
+<td>SPC k r</td>
+<td>raise expression (replace parent expression by current one)</td>
+</tr>
+<tr>
+<td>SPC k s</td>
+<td>forward slurp expression</td>
+</tr>
+<tr>
+<td>SPC k S</td>
+<td>backward slurp expression</td>
+</tr>
+<tr>
+<td>SPC k t</td>
+<td>transpose expression</td>
+</tr>
+<tr>
+<td>SPC k u</td>
+<td>undo</td>
+</tr>
+<tr>
+<td>SPC k U</td>
+<td>got to parent sexp backward</td>
+</tr>
+<tr>
+<td>SPC k C-r</td>
+<td>redo</td>
+</tr>
+<tr>
+<td>SPC k v</td>
+<td>switch to visual state</td>
+</tr>
+<tr>
+<td>SPC k V</td>
+<td>switch to visual line state</td>
+</tr>
+<tr>
+<td>SPC k C-v</td>
+<td>switch to visual block state</td>
+</tr>
+<tr>
+<td>SPC k w</td>
+<td>wrap expression with parenthesis</td>
+</tr>
+<tr>
+<td>SPC k W</td>
+<td>unwrap expression</td>
+</tr>
+<tr>
+<td>SPC k y</td>
+<td>copy expression</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>emacs lisp &#x7279;&#x5B9A;&#x7684;&#x952E;&#x7ED1;&#x5B9A;</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC m e $</td>
+<td>go to end of line and evaluate last sexp</td>
+</tr>
+<tr>
+<td>SPC m e b</td>
+<td>evaluate buffer</td>
+</tr>
+<tr>
+<td>SPC m e c</td>
+<td>evaluate current form (a def or a set)</td>
+</tr>
+<tr>
+<td>SPC m e e</td>
+<td>evaluate last sexp</td>
+</tr>
+<tr>
+<td>SPC m e f</td>
+<td>evaluate current defun</td>
+</tr>
+<tr>
+<td>SPC m e l</td>
+<td>go to end of line and evaluate last sexp</td>
+</tr>
+<tr>
+<td>SPC m e r</td>
+<td>evaluate region</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC m g g</td>
+<td>go to definition</td>
+</tr>
+<tr>
+<td>SPC m g G</td>
+<td>go to definition in another window</td>
+</tr>
+<tr>
+<td>SPC m h h</td>
+<td>describe elisp thing at point (show documentation)</td>
+</tr>
+<tr>
+<td>SPC m t b</td>
+<td>execute buffer tests</td>
+</tr>
+<tr>
+<td>SPC m t q</td>
+<td>ask for test function to execute</td>
+</tr>
+</tbody>
+</table>
+<h4 id="14817-&#x9F20;&#x6807;&#x4F7F;&#x7528;&#x60C5;&#x51B5;">14.8.17 &#x9F20;&#x6807;&#x4F7F;&#x7528;&#x60C5;&#x51B5;</h4>
+<p>&#x6709;&#x4E00;&#x4E9B;&#x6DFB;&#x52A0;&#x7684;&#x9F20;&#x6807;&#x529F;&#x80FD;&#x4E3A;&#x884C;&#x53F7;&#x8FB9;&#x8DDD;&#x8BBE;&#x7F6E;&#xFF08;&#x5982;&#x679C;&#x663E;&#x793A;&#xFF09;&#xFF1A;</p>
+<ul>
+<li>&#x5728;&#x884C;&#x53F7;&#x8FB9;&#x754C;&#x4E2D;&#x5355;&#x51FB;&#x53EF;&#x76F4;&#x89C2;&#x5730;&#x9009;&#x62E9;&#x6574;&#x4E2A;&#x884C;</li>
+<li>&#x62D6;&#x8FC7;&#x884C;&#x53F7;&#x8FB9;&#x8DDD;&#x53EF;&#x4EE5;&#x76F4;&#x89C2;&#x5730;&#x9009;&#x62E9;&#x533A;&#x57DF;</li>
+<li>&#x53CC;&#x51FB;&#x884C;&#x53F7;&#x8FB9;&#x754C;&#xFF0C;&#x76F4;&#x89C2;&#x5730;&#x9009;&#x62E9;&#x5F53;&#x524D;&#x7684;&#x4EE3;&#x7801;&#x5757;</li>
+</ul>
+<h3 id="149&#x7BA1;&#x7406;&#x9879;&#x76EE;">14.9&#x7BA1;&#x7406;&#x9879;&#x76EE;</h3>
+<p>&#x5728; Spacemacs &#x4E2D;&#x7684;&#x9879;&#x76EE;&#x662F;&#x7528; <a href="https://github.com/bbatsov/projectile" target="_blank">projectile</a> &#x6765;&#x7BA1;&#x7406;&#x7684;&#x3002;&#x5728; projectile &#x9879;&#x76EE;&#x4E2D;&#x662F;&#x9690;&#x5F0F;&#x5B9A;&#x4E49;&#x7684;&#xFF0C;&#x4F8B;&#x5982;&#xFF0C;&#x5F53;&#x5728;&#x6587;&#x4EF6;&#x6811;&#x4E2D;&#x9047;&#x5230; .git &#x5B58;&#x50A8;&#x5E93;&#x6216; .projectile &#x6587;&#x4EF6;&#x65F6;&#x627E;&#x5230;&#x9879;&#x76EE;&#x7684;&#x6839;&#x3002;</p>
+<p>&#x53EA;&#x8981;&#x6709;&#x53EF;&#x80FD;&#xFF0C;&#x5C31;&#x4F7F;&#x7528; Helm&#x3002;</p>
+<p>&#x5728;&#x9879;&#x76EE;&#x4E2D;&#x641C;&#x7D22;&#x67E5;&#x770B; <a href="http://spacemacs.org/doc/DOCUMENTATION.html#searching-in-a-project" target="_blank">project searching</a>.</p>
+<p>projectile &#x547D;&#x4EE4;&#x4EE5; p &#x5F00;&#x5934;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC p &apos;</td>
+<td>open a shell in project&apos;s root (with the shell layer)</td>
+</tr>
+<tr>
+<td>SPC p !</td>
+<td>run shell command in project&apos;s root</td>
+</tr>
+<tr>
+<td>SPC p &amp;</td>
+<td>run async shell command in project&apos;s root</td>
+</tr>
+<tr>
+<td>SPC p %</td>
+<td>replace a regexp</td>
+</tr>
+<tr>
+<td>SPC p a</td>
+<td>toggle between implementation and test</td>
+</tr>
+<tr>
+<td>SPC p b</td>
+<td>switch to project buffer</td>
+</tr>
+<tr>
+<td>SPC p c</td>
+<td>compile project using projectile</td>
+</tr>
+<tr>
+<td>SPC p d</td>
+<td>find directory</td>
+</tr>
+<tr>
+<td>SPC p D</td>
+<td>open project root in dired</td>
+</tr>
+<tr>
+<td>SPC p f</td>
+<td>find file</td>
+</tr>
+<tr>
+<td>SPC p F</td>
+<td>find file based on path around point</td>
+</tr>
+<tr>
+<td>SPC p g</td>
+<td>find tags</td>
+</tr>
+<tr>
+<td>SPC p C-g</td>
+<td>regenerate the project&apos;s etags / gtags</td>
+</tr>
+<tr>
+<td>SPC p h</td>
+<td>find file using helm</td>
+</tr>
+<tr>
+<td>SPC p I</td>
+<td>invalidate the projectile cache</td>
+</tr>
+<tr>
+<td>SPC p k</td>
+<td>kill all project buffers</td>
+</tr>
+<tr>
+<td>SPC p o</td>
+<td>run multi-occur</td>
+</tr>
+<tr>
+<td>SPC p p</td>
+<td>switch project</td>
+</tr>
+<tr>
+<td>SPC p r</td>
+<td>open a recent file</td>
+</tr>
+<tr>
+<td>SPC p R</td>
+<td>replace a string</td>
+</tr>
+<tr>
+<td>SPC p t</td>
+<td>open NeoTree in projectile root</td>
+</tr>
+<tr>
+<td>SPC p T</td>
+<td>test project</td>
+</tr>
+<tr>
+<td>SPC p v</td>
+<td>open project root in vc-dir or magit</td>
+</tr>
+<tr>
+<td>SPC /</td>
+<td>search in project with the best search tool available</td>
+</tr>
+<tr>
+<td>SPC s p</td>
+<td>see search in project</td>
+</tr>
+<tr>
+<td>SPC s a p</td>
+<td>run ag</td>
+</tr>
+<tr>
+<td>SPC s g p</td>
+<td>run grep</td>
+</tr>
+<tr>
+<td>SPC s k p</td>
+<td>run ack</td>
+</tr>
+<tr>
+<td>SPC s t p</td>
+<td>run pt</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>&#x6CE8;&#x610F;windows&#x7528;&#x6237;&#xFF1A;&#x542F;&#x7528;&#x5FEB;&#x901F;&#x7D22;&#x5F15; GNU find &#x6216; Cygwin find &#x5FC5;&#x987B;&#x5728;&#x4F60;&#x7684; PATH &#x4E2D;&#x3002;</p>
+</blockquote>
+<h3 id="1410-&#x5BC4;&#x5B58;&#x5668;registers">14.10 &#x5BC4;&#x5B58;&#x5668;(Registers)</h3>
+<p>&#x5BF9;&#x5404;&#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x8BBF;&#x95EE;&#x547D;&#x4EE4;&#x4EE5;r&#x5F00;&#x5934;:</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC r e</td>
+<td>show evil yank and named registers</td>
+</tr>
+<tr>
+<td>SPC r m</td>
+<td>show marks register</td>
+</tr>
+<tr>
+<td>SPC r r</td>
+<td>show helm register</td>
+</tr>
+<tr>
+<td>SPC r y</td>
+<td>show kill ring</td>
+</tr>
+</tbody>
+</table>
+<h3 id="1411&#x9519;&#x8BEF;&#x5904;&#x7406;">14.11&#x9519;&#x8BEF;&#x5904;&#x7406;</h3>
+<p>Spacemacs &#x4F7F;&#x7528;  <a href="https://github.com/flycheck/flycheck" target="_blank">Flycheck</a> &#x5B9E;&#x65F6;&#x63D0;&#x4F9B;&#x9519;&#x8BEF;&#x53CD;&#x9988;&#x3002;&#x68C0;&#x67E5;&#x4EC5;&#x5728;&#x4FDD;&#x5B58;&#x65F6;&#x95F4;&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#x6267;&#x884C;&#x3002;</p>
+<p>&#x9519;&#x8BEF;&#x7BA1;&#x7406;&#x547D;&#x4EE4;&#xFF08;&#x4EE5;e&#x5F00;&#x5934;&#xFF09;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC t s</td>
+<td>toggle flycheck</td>
+</tr>
+<tr>
+<td>SPC e c</td>
+<td>clear all errors</td>
+</tr>
+<tr>
+<td>SPC e h</td>
+<td>describe a flycheck checker</td>
+</tr>
+<tr>
+<td>SPC e l</td>
+<td>toggle the display of the flycheck list of errors/warnings</td>
+</tr>
+<tr>
+<td>SPC e n</td>
+<td>go to the next error</td>
+</tr>
+<tr>
+<td>SPC e p</td>
+<td>go to the previous error</td>
+</tr>
+<tr>
+<td>SPC e v</td>
+<td>verify flycheck setup (useful to debug 3rd party tools configuration)</td>
+</tr>
+<tr>
+<td>SPC e .</td>
+<td>error transient state</td>
+</tr>
+</tbody>
+</table>
+<p>&#x4E0B;&#x4E00;&#x4E2A;/&#x4E0A;&#x4E00;&#x4E2A;&#x9519;&#x8BEF;&#x7ED1;&#x5B9A;&#x548C;&#x9519;&#x8BEF;&#x77AC;&#x6001;&#x53EF;&#x7528;&#x4E8E;&#x6D4F;&#x89C8;&#x6765;&#x81EA; flycheck &#x7684;&#x9519;&#x8BEF;&#x4EE5;&#x53CA;&#x6765;&#x81EA;&#x7F16;&#x8BD1;&#x7F13;&#x51B2;&#x533A;&#x7684;&#x9519;&#x8BEF;&#xFF0C;&#x751A;&#x81F3;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x652F;&#x6301; emacs &#x7684;&#x4E0B;&#x4E00;&#x4E2A;&#x9519;&#x8BEF; API &#x7684;&#x4EFB;&#x4F55;&#x4E8B;&#x60C5;&#x3002;&#x8FD9;&#x5305;&#x62EC;&#x4F8B;&#x5982;&#x5DF2;&#x7ECF;&#x88AB;&#x4FDD;&#x5B58;&#x5230;&#x5355;&#x72EC;&#x7684;&#x7F13;&#x51B2;&#x533A;&#x7684;&#x641C;&#x7D22;&#x7ED3;&#x679C;&#x3002;</p>
+<p>&#x81EA;&#x5B9A;&#x4E49;&#x8FB9;&#x7F18;&#x4F4D;&#x56FE;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="http://spacemacs.org/doc/img/dot-error.png" alt="row 1 col 1"></td>
+<td>Error</td>
+</tr>
+<tr>
+<td><img src="http://spacemacs.org/doc/img/dot-warning.png" alt="row 2 col 1"></td>
+<td>warning</td>
+</tr>
+<tr>
+<td><img src="http://spacemacs.org/doc/img/dot-info.png" alt="image"></td>
+<td>Info </td>
+</tr>
+</tbody>
+</table>
+<h3 id="1412-&#x7F16;&#x8BD1;">14.12 &#x7F16;&#x8BD1;</h3>
+<p>Spacemacs &#x7ED1;&#x5B9A;&#x4E86;&#x4E00;&#x4E9B;&#x547D;&#x4EE4;&#x6765;&#x652F;&#x6301;&#x7F16;&#x8BD1;&#x9879;&#x76EE;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC c c</td>
+<td>use helm-make via projectile</td>
+</tr>
+<tr>
+<td>SPC c C</td>
+<td>compile</td>
+</tr>
+<tr>
+<td>SPC c d</td>
+<td>close compilation window</td>
+</tr>
+<tr>
+<td>SPC c k</td>
+<td>kill compilation</td>
+</tr>
+<tr>
+<td>SPC c m</td>
+<td>helm-make</td>
+</tr>
+<tr>
+<td>SPC c r</td>
+<td>recompile</td>
+</tr>
+</tbody>
+</table>
+<h3 id="1413-&#x6A21;&#x5F0F;modes">14.13 &#x6A21;&#x5F0F;(Modes)</h3>
+<h4 id="4131-&#x4E3B;&#x6A21;&#x5F0F;-leader-&#x952E;major-mode-leader-key">4.13.1 &#x4E3B;&#x6A21;&#x5F0F; leader &#x952E;(Major Mode leader key)</h4>
+<p>&#x7279;&#x5B9A;&#x4E8E;&#x5F53;&#x524D;&#x4E3B;&#x8981;&#x6A21;&#x5F0F;&#x7684;&#x952E;&#x7ED1;&#x5B9A;&#x4EE5;spc m&#x5F00;&#x5934;&#x3002;&#x4E3A;&#x65B9;&#x4FBF;&#x8D77;&#x89C1;&#xFF0C;&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#x4F1A;&#x8BBE;&#x7F6E;&#x4E00;&#x4E2A;&#x79F0;&#x4E3A;&#x4E3B;&#x6A21;&#x5F0F; leader &#x952E;&#x7684;&#x5FEB;&#x6377;&#x952E;&#xFF0C;&#x8FD9;&#x53EF;&#x4EE5;&#x8282;&#x7701;&#x4E00;&#x7B14;&#x5B9D;&#x8D35;&#x7684;&#x51FB;&#x952E;&#x3002;</p>
+<p>&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5728; &#x301C;/.spacemacs &#x4E2D;&#x5B9A;&#x4E49;&#x53D8;&#x91CF; dotspacemacs-major-mode-leader-key &#x6765;&#x66F4;&#x6539;&#x4E3B;&#x6A21;&#x5F0F;&#x7684; leader &#x952E;&#x3002;&#x4F8B;&#x5982;&#x5728;&#x5217;&#x8868;&#x4E2D;&#x8BBE;&#x7F6E;&#x952E;&#xFF1A;</p>
+<pre><code class="lang-lisp">(<span class="hljs-name">setq-default</span> dotspacemacs-major-mode-leader-key <span class="hljs-string">&quot;&lt;tab&gt;&quot;</span>)
+</code></pre>
+<h4 id="14132-helm">14.13.2 Helm</h4>
+<p>Spacemacs &#x5C06; hjkl &#x5BFC;&#x822A;&#x6DFB;&#x52A0;&#x5230; helm &#x7F13;&#x51B2;&#x533A;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C-h</td>
+<td>go to next source</td>
+</tr>
+<tr>
+<td>C-H</td>
+<td>describe key (replace C-h)</td>
+</tr>
+<tr>
+<td>C-j</td>
+<td>go to previous candidate</td>
+</tr>
+<tr>
+<td>C-k</td>
+<td>go to next candidate</td>
+</tr>
+<tr>
+<td>C-l</td>
+<td>same as return</td>
+</tr>
+</tbody>
+</table>
+<h3 id="1414-emacs&#x670D;&#x52A1;&#x5668;">14.14 emacs&#x670D;&#x52A1;&#x5668;</h3>
+<p>Spacemacs &#x5728;&#x542F;&#x52A8;&#x65F6;&#x542F;&#x52A8;&#x670D;&#x52A1;&#x5668;&#x3002;&#x8FD9;&#x4E2A;&#x670D;&#x52A1;&#x5668;&#x5728;&#x4F60;&#x5173;&#x95ED;&#x4F60;&#x7684; emacs &#x7A97;&#x53E3;&#x65F6;&#x4F1A;&#x88AB;&#x7EC8;&#x6B62;&#x3002;</p>
+<h4 id="14141-&#x8FDE;&#x63A5;&#x5230;-emacs-&#x670D;&#x52A1;&#x5668;">14.14.1 &#x8FDE;&#x63A5;&#x5230; emacs &#x670D;&#x52A1;&#x5668;</h4>
+<p>&#x60A8;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; emacsclient &#x4ECE;&#x7EC8;&#x7AEF;&#x5728; emacs &#x4E2D;&#x6253;&#x5F00;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x3002;&#x4F7F;&#x7528; emacsclient -c &#x5728; Emacs GUI &#x4E2D;&#x6253;&#x5F00;&#x6587;&#x4EF6;&#x3002;&#x4F7F;&#x7528; emacsclient -t &#x5728;&#x7EC8;&#x7AEF;&#x5185;&#x7684; Emacs &#x4E2D;&#x6253;&#x5F00;&#x6587;&#x4EF6;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x60A8;&#x5E0C;&#x671B;&#x60A8;&#x7684; Linux/OS X &#x7CFB;&#x7EDF;&#x9ED8;&#x8BA4;&#x4F7F;&#x7528; Emacs &#x4F5C;&#x4E3A;&#x4EFB;&#x4F55;&#x63D0;&#x793A;&#xFF0C;&#x60A8;&#x9700;&#x8981;&#x5C06;&#x5176;&#x8BBE;&#x7F6E;&#x4E3A;&#x60A8;&#x7684; shell &#x914D;&#x7F6E;&#xFF0C;&#x4F8B;&#x5982;&#xFF0C;&#x301C;/.bashrc &#x6216; &#x301C;/.zshrc&#xFF1A;</p>
+<pre><code>export EDITOR=&quot;emacsclient -c&quot;
+</code></pre><p>&#x8BF7;&#x6CE8;&#x610F;&#xFF0C;&#x5982;&#x679C;&#x60A8;&#x4F7F;&#x7528; OS X&#xFF0C;&#x5219;&#x53EF;&#x80FD;&#x9700;&#x8981;&#x5F15;&#x7528;&#x60A8;&#x7684; GUI Emacs &#x9644;&#x5E26;&#x7684; emacsclient&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;</p>
+<pre><code>export EDITOR=&quot;/Applications/Emacs.app/Contents/MacOS/bin/emacsclient -c&quot;
+</code></pre><blockquote>
+<p>&#x63D0;&#x793A;&#xFF1A;&#x8BB0;&#x5F97;&#x5728; emacs &#x4E2D;&#x7F16;&#x8F91;&#x6587;&#x4EF6;&#x540E;&#x4F7F;&#x7528;&#xFF1A;wq &#x6216; C-x&#xFF03;&#x3002;</p>
+</blockquote>
+<p>&#x6709;&#x5173;&#x66F4;&#x591A;&#x8BE6;&#x7EC6;&#x4FE1;&#x606F;&#xFF0C;&#x8BF7;&#x53C2;&#x9605;&#x5B98;&#x65B9; Emacs &#x624B;&#x518C;&#x4E2D;&#x7684; <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Emacs-Server.html" target="_blank">Emacs &#x4F5C;&#x4E3A;&#x670D;&#x52A1;&#x5668;</a>&#x3002;</p>
+<h3 id="1415-&#x4FDD;&#x6301;&#x670D;&#x52A1;&#x5668;&#x5F00;&#x7740;">14.15 &#x4FDD;&#x6301;&#x670D;&#x52A1;&#x5668;&#x5F00;&#x7740;</h3>
+<p>&#x901A;&#x8FC7;&#x5728; &#x301C;/spacemacs &#x4E2D;&#x5C06;&#x53D8;&#x91CF; dotspacemacs-persistent-server &#x8BBE;&#x7F6E;&#x4E3A;  t &#x5173;&#x95ED; Emacs&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x670D;&#x52A1;&#x5668;&#x4FDD;&#x6301;&#x6D3B;&#x52A8;&#x72B6;&#x6001;&#x3002;</p>
+<pre><code class="lang-lisp">(<span class="hljs-name">setq-default</span> dotspacemacs-persistent-server <span class="hljs-literal">t</span>)
+</code></pre>
+<p>&#x5F53;&#x6B64;&#x53D8;&#x91CF;&#x8BBE;&#x7F6E;&#x4E3A; t &#x65F6;&#xFF0C;&#x9000;&#x51FA; Emacs &#x5E76;&#x7EC8;&#x6B62;&#x670D;&#x52A1;&#x5668;&#x7684;&#x552F;&#x4E00;&#x65B9;&#x6CD5;&#x662F;&#x4F7F;&#x7528;&#x4EE5;&#x4E0B;&#x7ED1;&#x5B9A;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>Keybinding</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPC q</td>
+<td>Quit Emacs and kill the server, prompt for changed buffers to save</td>
+</tr>
+<tr>
+<td>SPC q Q</td>
+<td>Quit Emacs and kill the server, lose all unsaved changes.</td>
+</tr>
+<tr>
+<td>SPC q r</td>
+<td>Restart both Emacs and the server, prompting to save any changed buffers</td>
+</tr>
+<tr>
+<td>SPC q s</td>
+<td>Save the buffers, quit Emacs and kill the server</td>
+</tr>
+<tr>
+<td>SPC q z</td>
+<td>Kill the current frame</td>
+</tr>
+</tbody>
+</table>
+<h3 id="1416-&#x6545;&#x969C;&#x6392;&#x9664;troubleshoot">14.16 &#x6545;&#x969C;&#x6392;&#x9664;(Troubleshoot)</h3>
+<h4 id="14161-loading-fails">14.16.1 Loading fails</h4>
+<p>&#x5982;&#x679C;&#x5728;&#x52A0;&#x8F7D;&#x8FC7;&#x7A0B;&#x4E2D;&#x53D1;&#x751F;&#x9519;&#x8BEF;&#xFF0C;mode-line &#x5C06;&#x53D8;&#x4E3A;&#x7EA2;&#x8272;&#xFF0C;&#x5E76;&#x4E14;&#x9519;&#x8BEF;&#x5E94;&#x8BE5;&#x5728;&#x542F;&#x52A8;&#x7F13;&#x51B2;&#x533A;&#x4E2D;&#x5185;&#x8054;&#x663E;&#x793A;&#x3002;Spacemacs &#x5E94;&#x8BE5;&#x4ECD;&#x7136;&#x53EF;&#x7528;;&#x5982;&#x679C;&#x4E0D;&#x662F;&#xFF0C;&#x90A3;&#x4E48;&#x7528; emacs --debug-init &#x91CD;&#x65B0;&#x542F;&#x52A8; Emacs&#xFF0C;&#x5E76;&#x7528; backtrace &#x6253;&#x5F00;&#x4E00;&#x4E2A; <a href="https://github.com/syl20bnr/spacemacs/issues" target="_blank">Github issue</a>&#x3002;</p>
+<h4 id="14162-&#x5347;&#x7EA7;&#x964D;&#x7EA7;-emacs-&#x7248;&#x672C;">14.16.2 &#x5347;&#x7EA7;/&#x964D;&#x7EA7; Emacs &#x7248;&#x672C;</h4>
+<p>&#x4E3A;&#x4E86;&#x786E;&#x4FDD;&#x8F6F;&#x4EF6;&#x5305;&#x80FD;&#x591F;&#x9488;&#x5BF9;&#x60A8;&#x5B89;&#x88C5;&#x7684;&#x65B0; Emacs &#x7248;&#x672C;&#x8FDB;&#x884C;&#x6B63;&#x786E;&#x7F16;&#x8BD1;&#xFF0C;&#x8BF7;&#x52A1;&#x5FC5;&#x4F7F;&#x7528; SPC SPC spacemacs/recompile-elpa &#x8FD0;&#x884C;&#x4EA4;&#x4E92;&#x5F0F;&#x547D;&#x4EE4; spacemacs/recompile-elpa&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="layouts-and-workspaces.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 13 Layouts and workspaces">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"14 Commands","level":"1.16","depth":1,"next":{"title":"15 Achievements && 16 Thank you","level":"1.17","depth":1,"ref":"","articles":[]},"previous":{"title":"13 Layouts and workspaces","level":"1.15","depth":1,"path":"layouts-and-workspaces.md","ref":"layouts-and-workspaces.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"commands.md","mtime":"2018-02-16T10:29:16.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-02-19T05:20:07.188Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
